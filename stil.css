@@ -32,7 +32,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .marke:hover { text-decoration: none; }
 .logo { width: 26px; height: 26px; }
 .kopf nav { display: flex; flex-wrap: wrap; gap: 4px; margin-left: auto; }
-.kopf nav a { font-size: 15px; color: var(--text-2); padding: 7px 14px; border-radius: 999px; }
+.nav-icon { width: 17px; height: 17px; flex: none; }
+.kopf nav a { display: inline-flex; align-items: center; gap: 7px; font-size: 15px; color: var(--text-2); padding: 7px 14px; border-radius: 999px; }
 .kopf nav a:hover { background: var(--akzent-weich); color: var(--akzent); text-decoration: none; }
 .kopf nav a[aria-current="page"] { background: var(--akzent); color: #fff; }
 
@@ -124,3 +125,48 @@ tr:last-child td { border-bottom: 0; }
   .abschnitt { padding: 20px 18px; }
   .held { padding: 48px 0 28px; }
 }
+
+
+/* ===== Gewählt: Variante 1 Milchglas (24.11.2026) ===== */
+/* Variante 1 · Milchglas – nah an der Vorlage: kühles Grau, mattes Glas, sanfte Tiefe */
+:root { --grund: #d9dee5; --flaeche: rgba(255,255,255,.58); --text: #1e293b; --text-2: #3f4b5e; --leise: #66758a;
+  --linie: rgba(255,255,255,.75); --akzent: #3157d5; --akzent-2: #2445b8; --akzent-weich: rgba(255,255,255,.65); --akzent-linie: rgba(255,255,255,.9);
+  --schatten: inset 0 1px 0 rgba(255,255,255,.85), 0 18px 40px rgba(71,85,105,.16), 0 2px 6px rgba(71,85,105,.08); --rund: 22px; }
+body { background: radial-gradient(1200px 600px at 15% -10%, #f3f5f8 0%, transparent 60%), radial-gradient(900px 700px at 100% 30%, #c3ccd8 0%, transparent 60%), linear-gradient(180deg, #e4e8ee, #cfd6df); background-attachment: fixed; }
+.kopf-pille, .abschnitt, .toc-innen, .kachel, .g, .tabelle, .diagramm, .fuss { background: var(--flaeche); -webkit-backdrop-filter: blur(18px) saturate(1.3); backdrop-filter: blur(18px) saturate(1.3);
+  border: 1px solid var(--linie); box-shadow: var(--schatten); }
+.kopf-pille { border-radius: 22px; }
+.kopf nav a { color: var(--text-2); border: 1px solid transparent; }
+.kopf nav a:hover { background: rgba(255,255,255,.55); color: var(--text); }
+.kopf nav a[aria-current="page"] { background: rgba(255,255,255,.8); color: var(--text); border-color: rgba(255,255,255,.95);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.6), 0 6px 18px rgba(80,150,255,.22), inset 0 1px 0 #fff; }
+.held::before { display: none; }
+.badge { background: rgba(255,255,255,.7); border-color: #fff; color: var(--text-2); }
+.knopf { background: #1e293b; } .knopf:hover { background: #0f172a; }
+.knopf.leise { background: rgba(255,255,255,.7); border-color: #fff; }
+.g { background: rgba(255,255,255,.45); }
+th { background: rgba(255,255,255,.6); }
+.text h3 { border-top-color: rgba(100,116,139,.18); }
+.text blockquote { background: rgba(255,255,255,.6); border-color: #fff; }
+.toc li a:hover { background: rgba(255,255,255,.75); color: var(--text); box-shadow: 0 4px 14px rgba(80,150,255,.15); }
+.fuss { border-radius: 0; border-left: 0; border-right: 0; }
+
+/* ===== Kontrastfarbe für Highlights: warmes Koralle zum kühlen Glas ===== */
+:root { --kontrast: #ff6a3d; --kontrast-text: #c2410c; --kontrast-weich: rgba(255,106,61,.12); }
+.badge { color: var(--kontrast-text); background: rgba(255,255,255,.75); border-color: rgba(255,106,61,.35); }
+.badge::first-letter { color: var(--kontrast); }
+.k-nr { color: var(--kontrast-text); font-weight: 700; }
+.kachel { position: relative; overflow: hidden; }
+.kachel::before { content: ""; position: absolute; left: 0; top: 0; height: 3px; width: 44px; background: var(--kontrast); border-radius: 0 0 3px 0; }
+.kachel:hover { border-color: rgba(255,106,61,.45); }
+.k-pfeil { color: var(--kontrast-text); }
+.kopf nav a[aria-current="page"] .nav-icon { color: var(--kontrast); }
+.text h2 { position: relative; padding-left: 16px; }
+.text h2::before { content: ""; position: absolute; left: 0; top: .2em; bottom: .2em; width: 4px; border-radius: 4px; background: var(--kontrast); }
+.text li::marker { color: var(--kontrast); }
+.text strong { color: var(--text); }
+.text blockquote { border-left: 4px solid var(--kontrast); }
+.toc li a:hover { color: var(--kontrast-text); }
+.g { border-top: 3px solid var(--kontrast); }
+.knopf { background: var(--kontrast-text); } .knopf:hover { background: #9a3412; }
+::selection { background: var(--kontrast-weich); }
