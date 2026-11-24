@@ -22,150 +22,14 @@
 <p>Bei der Belastbarkeit steht ● für gut belegt, ◐ für teilweise belegt oder umstritten und ○ für Praxiswissen oder Philosophie.</p>
 
 </div></div>
-<div class="rahmen layout"><aside class="toc"><div class="toc-innen"><p class="toc-titel">Auf dieser Seite</p><ol><li><a href="#die-karte">Die Karte</a></li><li><a href="#1-rollen-und-systeme">1 · Rollen und Systeme</a></li><li><a href="#2-ziele-und-glück">2 · Ziele und Glück</a></li><li><a href="#3-flow-und-training">3 · Flow und Training</a></li><li><a href="#4-gewohnheiten">4 · Gewohnheiten</a></li><li><a href="#5-haltung-und-führung">5 · Haltung und Führung</a></li><li><a href="#6-strategie-angst-status-organisation-merath-teil-3-und-4-ergänzt-23-11">6 · Strategie, Angst, Status, Organisation (Merath Teil 3 und 4, ergänzt 23.11.)</a></li><li><a href="#7-lernen-teamflow-sicherheit-merath-teil-4-und-5-ergänzt-24-11">7 · Lernen, Teamflow, Sicherheit (Merath Teil 4 und 5, ergänzt 24.11.)</a></li><li><a href="#8-verhandlung-und-konflikt-schranner-ergänzt-24-11">8 · Verhandlung und Konflikt (Schranner, ergänzt 24.11.)</a></li><li><a href="#querverbindungen-die-mir-auffallen">Querverbindungen, die mir auffallen</a></li></ol></div></aside><main class="text"><section class="abschnitt"><h2 id="die-karte">Die Karte</h2><figure class="diagramm" title="Antippen zum Vergrößern"><pre class="mermaid">graph LR
-  subgraph Rollen und Systeme
-    FMU[F/M/U-Rollen]
-    ENG[Engpass]
-    CAP[30-Stunden-Grenze]
-    FALLE[Flow-Falle der F-Aufgabe]
-  end
-  subgraph Ziele und Glück
-    ZP[Ziele-Paradox]
-    ZMU[Ziel-Mittel-Umkehr]
-    WER[Wer willst du werden]
-    REF[Emotionales Referenzbild]
-  end
-  subgraph Flow und Training
-    FLOW[Flow]
-    TR[Training statt Lernen]
-    GRP[Trainingsgruppe / Bertram]
-    GUERT[Gürtel]
-  end
-  subgraph Gewohnheiten
-    JP[Jean-Paul]
-    MG[Mastergewohnheit]
-    LECK[Leckerli]
-    BL[Backlog max. 4]
-  end
-  subgraph Haltung und Führung
-    FRANKL[Einstellung wählen]
-    GINFO[Gefühle als Information]
-    LOB[Lobrunde]
-    RICHT[Richtung reicht]
-  end
-
-  GERBER([Gerber: E-Myth]) -->|Quelle| FMU
-  MEWES([Mewes: EKS / Goldratt: TOC]) -->|Quelle| ENG
-  PARK([Parkinsons Gesetz]) -.->|verwandt| CAP
-  KOMP([Kompetenzfalle]) -->|erklärt| FALLE
-  HED([Hedonische Anpassung]) -->|stützt| ZP
-  SDT([Selbstbestimmungstheorie]) -->|stützt| ZP
-  SDT ==>|Spannung| LECK
-  CLEAR([Clear: identitätsbasierte Gewohnheiten]) -->|verwandt| WER
-  AI([Appreciative Inquiry]) -->|verwandt| REF
-  AI -->|verwandt| LOB
-  ERIC([Ericsson: Deliberate Practice]) ==>|Spannung| FLOW
-  ERIC -->|stützt| TR
-  ZPD([Vygotsky: Zone der nächsten Entwicklung]) -->|verwandt| FLOW
-  HATTIE([Hattie: Feedback]) -->|stützt| GRP
-  COP([Community of Practice / Lesson Study]) -->|verwandt| GRP
-  DREY([Dreyfus-Kompetenzstufen]) -->|verwandt| GUERT
-  FOGG([Fogg: Tiny Habits]) -->|verwandt| JP
-  GOLL([Gollwitzer: Wenn-dann-Pläne]) -->|stützt| MG
-  SCHOEN([Schön: reflektierende Praxis]) -->|verwandt| MG
-  KANBAN([Kanban: WIP-Limit]) -->|verwandt| BL
-  EGO([Ego-Depletion]) ==>|Spannung| JP
-  STOA([Stoa: Dichotomie der Kontrolle]) -->|Quelle| FRANKL
-  AFF([Affekt als Information]) -->|stützt| GINFO
-  HOF([Hofbauer: Wahrnehmen ohne Beurteilung]) ==>|Spannung| LOB
-  WEICK([Weick: Jede Karte hilft]) -->|stützt| RICHT
-
-  subgraph Teil 3 und 4
-    STRAT[5 Strategieschritte]
-    ANGST[Angst als einziges Hindernis]
-    ABSCH[Täglicher Abschied]
-    LF[8 Bereiche Lebensfreude]
-    STAT[Innerer Status]
-    PREIS[Den Preis bezahlen]
-    WID[Widerstand mitnehmen]
-    ORG[Organisationale Gewohnheiten]
-  end
-  RIES([Ries & Trout: Positionierung]) -->|Quelle| STRAT
-  JTBD([Christensen: Jobs to be done]) -->|verwandt| STRAT
-  EDM([Edmondson: psychologische Sicherheit]) -->|stützt| ANGST
-  SUNK([Sunk-Cost / Besitztumseffekt]) -->|erklärt| ABSCH
-  SENECA([Stoa: Praemeditatio malorum]) -->|Quelle| ABSCH
-  JOY([Dalai Lama & Tutu: Book of Joy]) -->|Quelle| LF
-  JOHN([Johnstone: Hoch- und Tiefstatus]) -->|verwandt| STAT
-  WAAL([de Waal: Alpha als Schlichter]) -->|stützt| STAT
-  SVT([Schulz von Thun: 4 Seiten]) -->|Quelle| WID
-  NVC([Rosenberg: Gewaltfreie Kommunikation]) -->|verwandt| WID
-  DUH([Duhigg: Schlüsselgewohnheiten]) -->|Quelle| ORG
-  HEATH([Heath: Switch]) -->|Quelle| ORG
-  EDM ==>|Spannung| STAT
-  PART([Partizipative Schulentwicklung]) ==>|Spannung| STRAT
-  ANGST --> ABSCH --> PREIS
-  STAT --> WID
-  MG --> ORG
-  LOB --> ORG
-
-  subgraph Teil 4 und 5
-    LERN[Lernen während der Arbeit]
-    SPIEL[Aufmerksamkeit ohne Bewertung]
-    PRIO[Teamflow vor Ergebnis]
-    ZWEI[Der zweite Job]
-    BONI[Boni schaden]
-    FB[Feedback in Situation und danach]
-  end
-  ERIC -->|Quelle| LERN
-  GALL([Gallwey: Inner Game]) -->|Quelle| SPIEL
-  HOF -->|stützt| SPIEL
-  KEGAN([Kegan: An Everyone Culture]) -->|Quelle| ZWEI
-  SDT -->|stützt| BONI
-  AAR([After Action Review]) -->|verwandt| FB
-  CAND([Scott: Radical Candor]) ==>|Spannung| FB
-  SCHWARTZ([Schwartz: Wertetheorie]) ==>|Spannung| PRIO
-  SPIEL --> ZWEI
-  ANGST --> ZWEI
-
-  subgraph Schranner: Verhandlung und Konflikt
-    LOES[Lösen statt überzeugen]
-    WW[Win-Win nur bei gemeinsamer Wertebasis]
-    EMP[Empathie als Werkzeug]
-    KOEN[Den König spielen die anderen]
-    LETZT[Letztes Wort nicht am Tisch]
-    SCHW[Schwierig statt Nein]
-    ZUK[Zukunft statt Vergangenheit]
-    UNIF[Feuerwehr-Uniform]
-    SCHAM[Scham will Ansehen zurück]
-  end
-  HARV([Fisher & Ury: Harvard-Konzept]) ==>|Spannung| WW
-  AXEL([Axelrod: wiederholtes Spiel]) ==>|Spannung| WW
-  CARK([Carkhuff: additive Empathie]) -->|Quelle| EMP
-  ROG([Rogers: aktives Zuhören]) -->|verwandt| EMP
-  VOSS([Voss: taktische Empathie]) -->|verwandt| SCHW
-  RAP([Rapoport-Regeln]) -->|verwandt| EMP
-  GOFF([Goffman: Facework]) -->|stützt| UNIF
-  SUNZI([Sunzi: goldene Brücke]) -->|Quelle| UNIF
-  DESH([de Shazer: Lösungsorientierung]) -->|verwandt| ZUK
-  NOBL([No-Blame-Approach]) -->|verwandt| ZUK
-  REST([Restorative Practice]) ==>|Spannung| ZUK
-  GLASL([Glasl: Eskalationsstufen]) -->|verwandt| WW
-  EKMAN([Ekman: Refraktärphase]) -->|Quelle| SCHAM
-  KOEN ==>|Spannung| STAT
-  JOHN -->|verwandt| KOEN
-  EMP --> WID
-  UNIF --> SCHAM
-  LETZT ---|verwandt| FMU
-
-  ZP --> ZMU --> FLOW
-  FLOW --- TR
-  TR --> MG
-  JP --> LECK
-  GRP --> TR
-  FMU --> CAP
-  FALLE --> FMU</pre></figure><p class="hinweis-klein">Tipp: Karte antippen, um zwischen Überblick und Originalgröße zu wechseln.</p></section>
-<section class="abschnitt"><h2 id="1-rollen-und-systeme">1 · Rollen und Systeme</h2><p><strong>F/M/U-Rollen</strong></p>
+<section class="landkarte" aria-label="Ideen-Landkarte"><div class="rahmen">
+<div class="lk-kopf"><div><h2 class="lk-titel">Ideen-Landkarte</h2><p class="lk-hilfe">Tippe eine Idee an: Ihre Verbindungen leuchten auf, und im Infokasten stehen Kern, verwandte Ideen und Forschung. Die zweite Sicht ordnet alles nach Forschung und Praxis.</p></div>
+<div class="lk-modus" role="tablist"><button type="button" role="tab" class="aktiv" data-modus="ideen" aria-selected="true">Nach Ideen</button><button type="button" role="tab" data-modus="forschung" aria-selected="false">Nach Forschung</button></div></div>
+<div class="lk-sicht" data-sicht="ideen"><div class="lk-flaeche"><div class="lk-felder"><div class="lk-feld f-rollen"><p class="lk-feld-titel">Rollen und Fokus</p><div class="lk-pillen"><button type="button" class="lk-idee" data-s="fmu" aria-pressed="false"><span class="lk-nr">1</span>F/M/U-Rollen</button><button type="button" class="lk-idee" data-s="engpass" aria-pressed="false"><span class="lk-nr">11</span>Engpass</button></div></div><div class="lk-feld f-ziele"><p class="lk-feld-titel">Ziele und Sinn</p><div class="lk-pillen"><button type="button" class="lk-idee" data-s="ziele-paradox" aria-pressed="false"><span class="lk-nr">2</span>Ziele-Paradox</button><button type="button" class="lk-idee" data-s="wer-willst-du-werden" aria-pressed="false"><span class="lk-nr">3</span>Wer willst du werden?</button><button type="button" class="lk-idee" data-s="gefuehle-unterscheiden" aria-pressed="false"><span class="lk-nr">4</span>Gefühle unterscheiden</button><button type="button" class="lk-idee" data-s="lebensfreude" aria-pressed="false"><span class="lk-nr">17</span>Lebensfreude</button></div></div><div class="lk-feld f-flow"><p class="lk-feld-titel">Flow</p><div class="lk-pillen"><button type="button" class="lk-idee" data-s="flow" aria-pressed="false"><span class="lk-nr">5</span>Flow</button><button type="button" class="lk-idee" data-s="flow-kanal" aria-pressed="false"><span class="lk-nr">16</span>Flow-Kanal</button><button type="button" class="lk-idee" data-s="teamflow" aria-pressed="false"><span class="lk-nr">26</span>Teamflow</button><button type="button" class="lk-idee" data-s="flow-kanaele-im-team" aria-pressed="false"><span class="lk-nr">28</span>Flow-Kanäle im Team</button></div></div><div class="lk-feld f-training"><p class="lk-feld-titel">Training und Gewohnheiten</p><div class="lk-pillen"><button type="button" class="lk-idee" data-s="gewohnheiten-als-hebel" aria-pressed="false"><span class="lk-nr">6</span>Gewohnheiten als Hebel</button><button type="button" class="lk-idee" data-s="training-statt-lernen" aria-pressed="false"><span class="lk-nr">7</span>Training statt Lernen</button><button type="button" class="lk-idee" data-s="jean-paul" aria-pressed="false"><span class="lk-nr">8</span>Jean-Paul</button><button type="button" class="lk-idee" data-s="mastergewohnheit" aria-pressed="false"><span class="lk-nr">9</span>Mastergewohnheit</button><button type="button" class="lk-idee" data-s="trainingsgruppe" aria-pressed="false"><span class="lk-nr">12</span>Zeitgrenze und Trainingsgruppe</button><button type="button" class="lk-idee" data-s="lernen-waehrend-der-arbeit" aria-pressed="false"><span class="lk-nr">23</span>Lernen während der Arbeit</button><button type="button" class="lk-idee" data-s="zwei-arten-zu-lernen" aria-pressed="false"><span class="lk-nr">24</span>Zwei Arten zu lernen</button><button type="button" class="lk-idee" data-s="rueckfall" aria-pressed="false"><span class="lk-nr">25</span>Jans Rückfall</button></div></div><div class="lk-feld f-haltung"><p class="lk-feld-titel">Innere Haltung</p><div class="lk-pillen"><button type="button" class="lk-idee" data-s="grundhaltung" aria-pressed="false"><span class="lk-nr">10</span>Grundhaltung</button><button type="button" class="lk-idee" data-s="angst" aria-pressed="false"><span class="lk-nr">14</span>Angst als Hindernis</button><button type="button" class="lk-idee" data-s="innerer-status" aria-pressed="false"><span class="lk-nr">18</span>Innerer Status</button></div></div><div class="lk-feld f-strategie"><p class="lk-feld-titel">Strategie</p><div class="lk-pillen"><button type="button" class="lk-idee" data-s="strategie" aria-pressed="false"><span class="lk-nr">13</span>Strategie in fünf Schritten</button><button type="button" class="lk-idee" data-s="strategie-als-gewohnheit" aria-pressed="false"><span class="lk-nr">15</span>Strategie als Gewohnheit</button></div></div><div class="lk-feld f-fuehrung"><p class="lk-feld-titel">Führung und Organisation</p><div class="lk-pillen"><button type="button" class="lk-idee" data-s="richtung-und-status" aria-pressed="false"><span class="lk-nr">19</span>Richtung und Status</button><button type="button" class="lk-idee" data-s="widerstand-mitnehmen" aria-pressed="false"><span class="lk-nr">20</span>Widerstand mitnehmen</button><button type="button" class="lk-idee" data-s="organisationale-gewohnheiten" aria-pressed="false"><span class="lk-nr">21</span>Organisationale Gewohnheiten</button><button type="button" class="lk-idee" data-s="fuehren-von-unten" aria-pressed="false"><span class="lk-nr">22</span>Führen von unten</button><button type="button" class="lk-idee" data-s="anliegen-und-ziel" aria-pressed="false"><span class="lk-nr">27</span>Anliegen und Ziel</button><button type="button" class="lk-idee" data-s="sicherheit-zweiter-job" aria-pressed="false"><span class="lk-nr">29</span>Sicherheit statt zweitem Job</button><button type="button" class="lk-idee" data-s="feedback-und-identitaet" aria-pressed="false"><span class="lk-nr">30</span>Feedback und Identität</button></div></div></div></div>
+<aside class="lk-panel" aria-live="polite"></aside></div>
+<div class="lk-sicht" data-sicht="forschung" hidden><div class="lk-konzepte"></div></div>
+</div></section>
+<div class="rahmen layout"><aside class="toc"><div class="toc-innen"><p class="toc-titel">Auf dieser Seite</p><ol><li><a href="#1-rollen-und-systeme">1 · Rollen und Systeme</a></li><li><a href="#2-ziele-und-glück">2 · Ziele und Glück</a></li><li><a href="#3-flow-und-training">3 · Flow und Training</a></li><li><a href="#4-gewohnheiten">4 · Gewohnheiten</a></li><li><a href="#5-haltung-und-führung">5 · Haltung und Führung</a></li><li><a href="#6-strategie-angst-status-organisation-merath-teil-3-und-4-ergänzt-23-11">6 · Strategie, Angst, Status, Organisation (Merath Teil 3 und 4, ergänzt 23.11.)</a></li><li><a href="#7-lernen-teamflow-sicherheit-merath-teil-4-und-5-ergänzt-24-11">7 · Lernen, Teamflow, Sicherheit (Merath Teil 4 und 5, ergänzt 24.11.)</a></li><li><a href="#8-verhandlung-und-konflikt-schranner-ergänzt-24-11">8 · Verhandlung und Konflikt (Schranner, ergänzt 24.11.)</a></li><li><a href="#querverbindungen-die-mir-auffallen">Querverbindungen, die mir auffallen</a></li></ol></div></aside><main class="text"><section class="abschnitt"><h2 id="die-verbindungen-im-einzelnen">Die Verbindungen im Einzelnen</h2><p>Unter der Landkarte stehen alle Verbindungen ausführlich: woher eine Idee stammt, was sie stützt und wo sie sich mit anderen Ansätzen reibt.</p></section><section class="abschnitt"><h2 id="1-rollen-und-systeme">1 · Rollen und Systeme</h2><p><strong>F/M/U-Rollen</strong></p>
 <ul>
 <li>⇐ <strong>Michael Gerber, <em>The E-Myth</em> (1986)</strong> ○: Techniker, Manager, Unternehmer. Meraths Dreiteilung entspricht genau diesem Modell und ist im Kern die deutsche Fassung. Gerbers berühmter Satz: „Work <em>on</em> your business, not <em>in</em> it.“</li>
 <li>＝ <strong>Mintzberg: Rollen einer Führungskraft</strong> ◐: Er zeigt empirisch, dass Führungskräfte in Wirklichkeit dauernd unterbrochen werden und kleinteilig reagieren. Merath zeichnet ein Idealbild, Mintzberg beschreibt die Wirklichkeit.</li>
@@ -495,8 +359,42 @@
 </ol>
 </section></main></div>
 <footer class="fuss"><div class="rahmen">Zusammenfassungen und Verknüpfungen in eigenen Worten. Die Originalwerke bleiben die Quelle – wer die Ideen ernst nimmt, liest die Bücher. Arbeitsstand, keine wissenschaftliche Arbeit.</div></footer>
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'strict', theme: 'base', themeVariables: { fontFamily: 'ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif', fontSize: '15px', primaryColor: '#ffffff', primaryBorderColor: '#cbd5e1', primaryTextColor: '#0f172a', lineColor: '#94a3b8', clusterBkg: '#f8fafc', clusterBorder: '#e2e8f0', edgeLabelBackground: '#f1f5f9', tertiaryColor: '#ffffff' }, flowchart: { useMaxWidth: true, curve: 'basis' } });
-document.querySelectorAll('.diagramm').forEach(k => k.addEventListener('click', () => k.classList.toggle('gross')));</script>
+<script>const LK=[{"s":"fmu","n":1,"t":"F/M/U-Rollen","k":"Wer die Löcher selbst stopft, statt Systeme zu bauen, wird zum Sklaven der eigenen Organisation.","f":"Rollen und Fokus","v":["engpass","flow-kanal","mastergewohnheit","innerer-status"],"x":[{"a":"Gerber: The E-Myth","b":"Quelle"},{"a":"Kompetenzfalle (Levitt & March)","b":"erklärt"},{"a":"Mintzberg: Rollen der Führungskraft","b":"verwandt"},{"a":"Parkinsons Gesetz","b":"verwandt"}]},{"s":"ziele-paradox","n":2,"t":"Ziele-Paradox","k":"Man jagt einem Ziel nach, um sich frei und glücklich zu fühlen, und landet auf dem Weg dorthin genau im Gegenteil.","f":"Ziele und Sinn","v":["wer-willst-du-werden","gefuehle-unterscheiden","flow","rueckfall"],"x":[{"a":"Hedonische Anpassung (Brickman 1978)","b":"stützt"},{"a":"Kasser & Ryan: äußere Lebensziele","b":"stützt"},{"a":"Locke & Latham: Zielsetzungstheorie","b":"Spannung"},{"a":"Ben-Shahar: Ankunftsfehlschluss","b":"verwandt"}]},{"s":"wer-willst-du-werden","n":3,"t":"Wer willst du werden?","k":"Der Gipfel ist nur dazu da, dem Klettern Struktur zu geben; die eigentliche Frage ist, wer man auf dem Weg wird.","f":"Ziele und Sinn","v":["ziele-paradox","flow","gewohnheiten-als-hebel","feedback-und-identitaet"],"x":[{"a":"James Clear: identitätsbasierte Gewohnheiten","b":"verwandt"},{"a":"Aristoteles: Charakter durch Handeln","b":"verwandt"},{"a":"Appreciative Inquiry","b":"verwandt"},{"a":"Prozessziele im Sport","b":"stützt"}]},{"s":"gefuehle-unterscheiden","n":4,"t":"Gefühle unterscheiden","k":"Zufriedenheit, Spaß und Flow fühlen sich ähnlich an, wollen aber ganz Verschiedenes, und nur eines davon trägt Leistung.","f":"Ziele und Sinn","v":["flow","flow-kanal","lebensfreude","ziele-paradox"],"x":[{"a":"Csikszentmihalyi: Flow","b":"Quelle"},{"a":"hedonisches und eudaimonisches Wohlbefinden (Ryan & Deci)","b":"stützt"},{"a":"Seligman: PERMA","b":"verwandt"}]},{"s":"flow","n":5,"t":"Flow","k":"Spitzenleistung ist keine Frage von Druck, sondern die Folge davon, dass Menschen in ihrer Arbeit aufgehen.","f":"Flow","v":["flow-kanal","teamflow","gefuehle-unterscheiden","wer-willst-du-werden"],"x":[{"a":"Csikszentmihalyi: Flow","b":"Quelle"},{"a":"Keith Sawyer: Group Flow","b":"verwandt"},{"a":"Csikszentmihalyi: autotelische Tätigkeit","b":"verwandt"}]},{"s":"gewohnheiten-als-hebel","n":6,"t":"Gewohnheiten als Hebel","k":"Charakter und Schicksal kann man nicht direkt ändern, Gewohnheiten schon, und sie verändern am Ende alles andere mit.","f":"Training und Gewohnheiten","v":["jean-paul","mastergewohnheit","training-statt-lernen","organisationale-gewohnheiten"],"x":[{"a":"Wood: Anteil gewohnheitsmäßigen Verhaltens","b":"stützt"},{"a":"Aristoteles: Charakter durch Handeln","b":"verwandt"},{"a":"Ego-Depletion","b":"Spannung"},{"a":"Duhigg: Schlüsselgewohnheiten","b":"verwandt"}]},{"s":"training-statt-lernen","n":7,"t":"Training statt Lernen","k":"Wer etwas gelernt hat, weiß es; können tut er es erst, wenn er es trainiert hat.","f":"Training und Gewohnheiten","v":["mastergewohnheit","trainingsgruppe","lernen-waehrend-der-arbeit","gewohnheiten-als-hebel"],"x":[{"a":"Ericsson: Deliberate Practice","b":"stützt"},{"a":"Squire: deklaratives und prozedurales Gedächtnis","b":"stützt"},{"a":"träges Wissen (Renkl)","b":"verwandt"},{"a":"Korthagen: Theorie-Praxis-Kluft","b":"verwandt"}]},{"s":"jean-paul","n":8,"t":"Jean-Paul","k":"Der Teil des Gehirns, der Gewohnheiten lernt, lernt wie ein Hund: über Auslöser, kleine Schritte und sofortige Belohnung, nicht über Vorwürfe.","f":"Training und Gewohnheiten","v":["mastergewohnheit","gewohnheiten-als-hebel","flow-kanal","sicherheit-zweiter-job"],"x":[{"a":"BJ Fogg: Tiny Habits","b":"verwandt"},{"a":"Duhigg: Gewohnheitsschleife","b":"verwandt"},{"a":"Kahneman: System 1 und 2","b":"verwandt"},{"a":"Selbstbestimmungstheorie: Belohnungen","b":"Spannung"}]},{"s":"mastergewohnheit","n":9,"t":"Mastergewohnheit","k":"Die wichtigste Gewohnheit ist die, an den eigenen Gewohnheiten zu arbeiten, jeden Tag zwei Minuten.","f":"Training und Gewohnheiten","v":["training-statt-lernen","jean-paul","flow-kanal","organisationale-gewohnheiten"],"x":[{"a":"BJ Fogg: Tiny Habits","b":"verwandt"},{"a":"Gollwitzer: Wenn-dann-Pläne","b":"stützt"},{"a":"Lally et al. 2010: 66 Tage","b":"stützt"},{"a":"Schön: reflektierende Praxis","b":"verwandt"},{"a":"Kanban: WIP-Limit","b":"verwandt"}]},{"s":"grundhaltung","n":10,"t":"Grundhaltung","k":"Ärger und Hilflosigkeit sind keine Urteile über andere, sondern Hinweise darauf, was man selbst noch lernen muss.","f":"Innere Haltung","v":["lebensfreude","widerstand-mitnehmen","innerer-status","angst"],"x":[{"a":"Stoa: Dichotomie der Kontrolle","b":"Quelle"},{"a":"Affekt als Information (Schwarz & Clore)","b":"stützt"},{"a":"Metta-Meditation","b":"stützt"},{"a":"Verzeihen: REACH-Modell (Worthington)","b":"verwandt"}]},{"s":"engpass","n":11,"t":"Engpass","k":"Hinter vielen Symptomen steckt meist eine einzige Ursache; wer sie findet, braucht wenige Schritte statt hundert Maßnahmen.","f":"Rollen und Fokus","v":["fmu","strategie","richtung-und-status","angst"],"x":[{"a":"Mewes: Engpasskonzentrierte Strategie","b":"Quelle"},{"a":"Goldratt: Theory of Constraints","b":"verwandt"},{"a":"Pareto-Prinzip","b":"verwandt"},{"a":"Weick: Jede Karte hilft","b":"stützt"}]},{"s":"trainingsgruppe","n":12,"t":"Zeitgrenze und Trainingsgruppe","k":"Eine feste Zeitgrenze zwingt zu besseren Lösungen, und eine Trainingsgruppe sorgt dafür, dass man Abweichungen nach Tagen statt nach Monaten bemerkt.","f":"Training und Gewohnheiten","v":["training-statt-lernen","fmu","mastergewohnheit","strategie-als-gewohnheit"],"x":[{"a":"Parkinsons Gesetz","b":"verwandt"},{"a":"Hattie: Feedback","b":"stützt"},{"a":"Communities of Practice (Lave & Wenger)","b":"verwandt"},{"a":"Professionelle Lerngemeinschaften","b":"verwandt"}]},{"s":"strategie","n":13,"t":"Strategie in fünf Schritten","k":"Gute Strategie heißt, für eine sehr kleine Zielgruppe das brennendste Problem so zu lösen, dass niemand mehr verkaufen muss.","f":"Strategie","v":["angst","strategie-als-gewohnheit","engpass","richtung-und-status"],"x":[{"a":"Ries & Trout: Positionierung","b":"Quelle"},{"a":"Mewes: Engpasskonzentrierte Strategie","b":"Quelle"},{"a":"Christensen: Jobs to be done","b":"verwandt"},{"a":"Partizipative Schulentwicklung","b":"Spannung"}]},{"s":"angst","n":14,"t":"Angst als Hindernis","k":"Was Veränderung bremst, ist fast immer Angst, und sie tarnt sich gern als Vernunft, Gründlichkeit oder „noch ein Buch“.","f":"Innere Haltung","v":["innerer-status","strategie","sicherheit-zweiter-job","lebensfreude"],"x":[{"a":"Edmondson: psychologische Sicherheit","b":"stützt"},{"a":"Sunk-Cost-Falle und Besitztumseffekt","b":"erklärt"},{"a":"Stoa: negative Visualisierung","b":"Quelle"},{"a":"Selbstdistanzierung (Kross)","b":"stützt"}]},{"s":"strategie-als-gewohnheit","n":15,"t":"Strategie als Gewohnheit","k":"Strategie entsteht nicht an einem Klausurtag im Jahr, sondern in täglich zwanzig Minuten mit glasklaren nächsten Schritten.","f":"Strategie","v":["strategie","mastergewohnheit","flow-kanal","trainingsgruppe"],"x":[{"a":"Gollwitzer: Wenn-dann-Pläne","b":"stützt"},{"a":"Lean Startup: schnelle Lernschleifen","b":"verwandt"},{"a":"Deep Work (Newport)","b":"verwandt"}]},{"s":"flow-kanal","n":16,"t":"Flow-Kanal","k":"Flow entsteht, wenn die Aufgabe ein kleines Stück über dem eigenen Können liegt, nicht darunter und nicht weit darüber.","f":"Flow","v":["mastergewohnheit","training-statt-lernen","teamflow","lernen-waehrend-der-arbeit"],"x":[{"a":"Csikszentmihalyi: Flow","b":"Quelle"},{"a":"Vygotsky: Zone der nächsten Entwicklung","b":"verwandt"},{"a":"Ericsson: Deliberate Practice","b":"Spannung"},{"a":"Yerkes-Dodson","b":"verwandt"}]},{"s":"lebensfreude","n":17,"t":"Lebensfreude","k":"Zufriedenheit, Spaß und Flow hängen an Umständen; Lebensfreude ist eine Grundhaltung, die man trainieren kann und die gegen Frust hilft.","f":"Ziele und Sinn","v":["gefuehle-unterscheiden","grundhaltung","angst","innerer-status"],"x":[{"a":"Dalai Lama & Tutu: The Book of Joy","b":"Quelle"},{"a":"Dankbarkeitsforschung (Emmons)","b":"stützt"},{"a":"Akzeptanz- und Commitment-Therapie","b":"verwandt"},{"a":"Stoa","b":"verwandt"}]},{"s":"innerer-status","n":18,"t":"Innerer Status","k":"Wer führt, sorgt für Sicherheit und schützt die Schwächeren, zugewandt und ohne zu drücken, wie beim Tango.","f":"Innere Haltung","v":["angst","widerstand-mitnehmen","sicherheit-zweiter-job","fmu"],"x":[{"a":"Johnstone: Hoch- und Tiefstatus","b":"verwandt"},{"a":"de Waal: Alpha als Schlichter","b":"stützt"},{"a":"Kounin: Withitness","b":"verwandt"},{"a":"Edmondson: psychologische Sicherheit","b":"Spannung"}]},{"s":"richtung-und-status","n":19,"t":"Richtung und Status","k":"Ein Team kommt erst in den Flow, wenn klar ist, wohin es geht und wer führt; vorher kämpft jeder um seinen Platz.","f":"Führung und Organisation","v":["innerer-status","anliegen-und-ziel","teamflow","sicherheit-zweiter-job"],"x":[{"a":"de Waal: Ranghohe als Schlichter","b":"stützt"},{"a":"Bryk & Schneider: Vertrauen in Schulen","b":"stützt"},{"a":"Leithwood: Richtung setzen","b":"verwandt"},{"a":"Edmondson: psychologische Sicherheit","b":"Spannung"}]},{"s":"widerstand-mitnehmen","n":20,"t":"Widerstand mitnehmen","k":"Wenn jemand eine gute Lösung ablehnt und nicht dumm ist, dann hat man sein eigentliches Problem noch nicht verstanden.","f":"Führung und Organisation","v":["innerer-status","organisationale-gewohnheiten","angst","zwei-arten-zu-lernen"],"x":[{"a":"Schulz von Thun: vier Seiten einer Nachricht","b":"Quelle"},{"a":"Rosenberg: Gewaltfreie Kommunikation","b":"verwandt"},{"a":"Motivational Interviewing","b":"verwandt"},{"a":"Schranner: Verhandlung","b":"verwandt"}]},{"s":"organisationale-gewohnheiten","n":21,"t":"Organisationale Gewohnheiten","k":"Statt jedes Problem einzeln zu lösen, verändert man wenige Gewohnheiten der Organisation, und die lösen viele Probleme auf einmal.","f":"Führung und Organisation","v":["mastergewohnheit","gewohnheiten-als-hebel","widerstand-mitnehmen","sicherheit-zweiter-job"],"x":[{"a":"Nelson & Winter: Routinen in Organisationen","b":"Quelle"},{"a":"Duhigg: Schlüsselgewohnheiten","b":"Quelle"},{"a":"Heath & Heath: Switch","b":"Quelle"},{"a":"Positive Deviance","b":"stützt"},{"a":"Lern- und Verhaltensziele (Seijts & Latham)","b":"stützt"}]},{"s":"fuehren-von-unten","n":22,"t":"Führen von unten","k":"Wer einen schwierigen Chef hat, kann ihn als überforderten Menschen sehen und mit seiner Energie arbeiten statt dagegen.","f":"Führung und Organisation","v":["grundhaltung","widerstand-mitnehmen","angst","lernen-waehrend-der-arbeit"],"x":[{"a":"Managing up (Gabarro & Kotter)","b":"verwandt"},{"a":"Perspektivübernahme","b":"stützt"},{"a":"Edmondson: psychologische Sicherheit","b":"verwandt"}]},{"s":"lernen-waehrend-der-arbeit","n":23,"t":"Lernen während der Arbeit","k":"Jede Aufgabe bekommt neben dem Ergebnisziel ein Lernziel, so wird Arbeit selbst zum Training.","f":"Training und Gewohnheiten","v":["training-statt-lernen","zwei-arten-zu-lernen","flow-kanal","organisationale-gewohnheiten"],"x":[{"a":"Ericsson: Deliberate Practice","b":"Quelle"},{"a":"Lernziele und Erfolgskriterien (Hattie, Clarke)","b":"verwandt"},{"a":"70-20-10-Modell","b":"verwandt"},{"a":"Selbstüberschätzung (Svenson)","b":"stützt"}]},{"s":"zwei-arten-zu-lernen","n":24,"t":"Zwei Arten zu lernen","k":"Statt zwanzig Korrekturen bekommt der Lernende einen einzigen Punkt, auf den er achtet, ohne zu bewerten, und vieles verbessert sich von selbst.","f":"Training und Gewohnheiten","v":["lernen-waehrend-der-arbeit","jean-paul","widerstand-mitnehmen","sicherheit-zweiter-job"],"x":[{"a":"Gallwey: The Inner Game of Tennis","b":"Quelle"},{"a":"externer Aufmerksamkeitsfokus (Wulf)","b":"stützt"},{"a":"Hofbauer: Wahrnehmen ohne Beurteilung","b":"verwandt"},{"a":"Pygmalion-Effekt","b":"verwandt"}]},{"s":"rueckfall","n":25,"t":"Jans Rückfall","k":"Rückfälle gehören zur Veränderung, und wer helfen will, hilft dem anderen auf dessen Weg, statt recht zu behalten.","f":"Training und Gewohnheiten","v":["training-statt-lernen","ziele-paradox","lebensfreude","sicherheit-zweiter-job"],"x":[{"a":"Selbstbestimmungstheorie: Autonomie","b":"stützt"},{"a":"Transtheoretisches Modell: Rückfall als Phase","b":"verwandt"},{"a":"Dweck: Fehler als Information","b":"verwandt"}]},{"s":"teamflow","n":26,"t":"Teamflow","k":"Teams, die dauerhaft über sich hinauswachsen, stellen nicht das Ergebnis ins Zentrum, sondern das gemeinsame Erleben und die Menschen.","f":"Flow","v":["flow","anliegen-und-ziel","flow-kanaele-im-team","richtung-und-status"],"x":[{"a":"Keith Sawyer: Group Flow","b":"Quelle"},{"a":"Google Project Aristotle","b":"stützt"},{"a":"Sinek: The Infinite Game","b":"verwandt"},{"a":"Burnout-Forschung (Maslach)","b":"Spannung"}]},{"s":"anliegen-und-ziel","n":27,"t":"Anliegen und Ziel","k":"Ein Team braucht ein Anliegen, das alle spüren, und ein Ziel, das klar ist, von allen getragen wird und knapp über dem Möglichen liegt.","f":"Führung und Organisation","v":["teamflow","richtung-und-status","flow-kanal","organisationale-gewohnheiten"],"x":[{"a":"Locke & Latham: Zielsetzungstheorie","b":"stützt"},{"a":"Leithwood: Richtung setzen","b":"verwandt"},{"a":"Partizipative Schulentwicklung","b":"Spannung"}]},{"s":"flow-kanaele-im-team","n":28,"t":"Flow-Kanäle im Team","k":"Jeder Mensch hat seinen eigenen Flow-Kanal, und gute Führung hilft allen, möglichst viel Zeit darin zu verbringen, auch bei einfachen Aufgaben.","f":"Flow","v":["flow-kanal","teamflow","lernen-waehrend-der-arbeit","zwei-arten-zu-lernen"],"x":[{"a":"Crum & Langer: Hotel-Reinigungskräfte","b":"stützt"},{"a":"Job Crafting (Wrzesniewski)","b":"verwandt"},{"a":"Yerkes-Dodson","b":"verwandt"},{"a":"Burnout-Forschung","b":"verwandt"}]},{"s":"sicherheit-zweiter-job","n":29,"t":"Sicherheit statt zweitem Job","k":"Ohne Sicherheit macht jeder zwei Jobs, den bezahlten und das Absichern der eigenen Position, und der zweite frisst den ersten.","f":"Führung und Organisation","v":["angst","innerer-status","zwei-arten-zu-lernen","feedback-und-identitaet"],"x":[{"a":"Kegan & Lahey: An Everyone Culture","b":"Quelle"},{"a":"Edmondson: psychologische Sicherheit","b":"stützt"},{"a":"Deci, Koestner & Ryan: Belohnungen","b":"stützt"},{"a":"Just Culture in Medizin und Luftfahrt","b":"verwandt"}]},{"s":"feedback-und-identitaet","n":30,"t":"Feedback und Identität","k":"Teams im Flow sind eng verbunden, geben sich sofort und direkt Rückmeldung und klären Konflikte noch am selben Tag.","f":"Führung und Organisation","v":["sicherheit-zweiter-job","teamflow","wer-willst-du-werden","innerer-status"],"x":[{"a":"After Action Review","b":"verwandt"},{"a":"Kim Scott: Radical Candor","b":"Spannung"},{"a":"Negativitätsverzerrung (Baumeister)","b":"stützt"},{"a":"Schulz von Thun: inneres Team","b":"verwandt"},{"a":"Schwartz: Wertetheorie","b":"Spannung"}]}];
+(() => {
+const bySlug = Object.fromEntries(LK.map(d => [d.s, d]));
+const nachbarn = s => { const n = new Set(bySlug[s].v.filter(x => bySlug[x])); LK.forEach(d => { if (d.v.includes(s)) n.add(d.s); }); n.delete(s); return [...n]; };
+const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const relKlasse = b => 'rel rel-' + b.toLowerCase();
+const flaeche = document.querySelector('.lk-flaeche'), panel = document.querySelector('.lk-panel');
+const knoepfe = [...document.querySelectorAll('.lk-idee')];
+let aktiv = null;
+const grad = LK.map(d => [d, nachbarn(d.s).length]).sort((a, b) => b[1] - a[1]);
+const konzepte = {}; LK.forEach(d => d.x.forEach(x => { (konzepte[x.a] ||= []).push({ s: d.s, b: x.b }); }));
+const startPanel = () => { panel.innerHTML = '<p class="lk-p-titel">Überblick</p><p>' + LK.length + ' Ideen, ' + Object.keys(konzepte).length + ' Konzepte aus Forschung und Praxis.</p><p class="lk-p-zwischen">Am stärksten vernetzt</p><div class="lk-p-pillen">' + grad.slice(0, 6).map(([d, g]) => '<button type="button" class="chip" data-wahl="' + d.s + '">' + esc(d.t) + ' <small>' + g + '</small></button>').join('') + '</div>'; };
+const linien = () => {};
+const waehle = s => {
+  aktiv = (aktiv === s) ? null : s;
+  const nb = aktiv ? new Set(nachbarn(aktiv)) : null;
+  flaeche.classList.toggle('hat-auswahl', !!aktiv);
+  knoepfe.forEach(k => { const an = k.dataset.s === aktiv; k.classList.toggle('an', an); k.classList.toggle('nah', !!nb && nb.has(k.dataset.s)); k.setAttribute('aria-pressed', an); });
+  if (!aktiv) { startPanel(); linien(); return; }
+  const d = bySlug[aktiv];
+  const gruppen = {}; d.x.forEach(x => (gruppen[x.b] ||= []).push(x.a));
+  panel.innerHTML = '<p class="lk-p-feld">' + esc(d.f) + ' · Idee ' + d.n + '</p><p class="lk-p-titel">' + esc(d.t) + '</p><p>' + esc(d.k) + '</p>' +
+    '<p class="lk-p-zwischen">Verbunden mit</p><div class="lk-p-pillen">' + nachbarn(aktiv).map(n => '<button type="button" class="chip" data-wahl="' + n + '">' + esc(bySlug[n].t) + '</button>').join('') + '</div>' +
+    '<p class="lk-p-zwischen">Forschung und Praxis</p><ul class="netz">' + Object.entries(gruppen).map(([b, xs]) => xs.map(a => '<li><span class="' + relKlasse(b) + '">' + esc(b) + '</span> ' + esc(a) + '</li>').join('')).join('') + '</ul>' +
+    '<a class="knopf klein" href="ideen/' + d.s + '.html">Karte öffnen →</a>';
+  linien();
+};
+document.addEventListener('click', e => { const b = e.target.closest('[data-wahl], .lk-idee'); if (!b) return; const s = b.dataset.wahl || b.dataset.s; if (b.dataset.wahl) { zeigeSicht('ideen'); aktiv = null; } waehle(s); if (innerWidth < 900 && aktiv) panel.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); });
+addEventListener('resize', linien);
+const modi = [...document.querySelectorAll('.lk-modus button')];
+const zeigeSicht = m => { document.querySelectorAll('.lk-sicht').forEach(v => v.hidden = v.dataset.sicht !== m); modi.forEach(b => { const an = b.dataset.modus === m; b.classList.toggle('aktiv', an); b.setAttribute('aria-selected', an); }); linien(); };
+modi.forEach(b => b.addEventListener('click', () => zeigeSicht(b.dataset.modus)));
+document.querySelector('.lk-konzepte').innerHTML = Object.entries(konzepte).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).map(([name, xs]) =>
+  '<div class="lk-konzept"><p class="lk-k-name">' + esc(name) + ' <small>' + xs.length + (xs.length === 1 ? ' Idee' : ' Ideen') + '</small></p><div class="lk-p-pillen">' + xs.map(x => '<button type="button" class="chip" data-wahl="' + x.s + '"><span class="' + relKlasse(x.b) + '">' + esc(x.b) + '</span>' + esc(bySlug[x.s].t) + '</button>').join('') + '</div></div>').join('');
+startPanel();
+})();
+</script>
 </body>
 </html>
