@@ -173,7 +173,7 @@ th { background: rgba(255,255,255,.6); }
 
 /* ===== Ideen-Galerie (Pilot 24.11.2026) ===== */
 .f-rollen { --feld: #3157d5; } .f-ziele { --feld: #7c3aed; } .f-flow { --feld: #0891b2; } .f-training { --feld: #059669; }
-.f-haltung { --feld: #ff6a3d; } .f-strategie { --feld: #ca8a04; } .f-fuehrung { --feld: #db2777; }
+.f-haltung { --feld: #ff6a3d; } .f-strategie { --feld: #ca8a04; } .f-fuehrung { --feld: #db2777; } .f-verhandlung { --feld: #5b6b82; }
 .werkzeug { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
 .filter { display: flex; flex-wrap: wrap; gap: 6px; }
 .filter button { font: inherit; font-size: 14px; padding: 7px 14px; border-radius: 999px; cursor: pointer; color: var(--text-2);
@@ -251,7 +251,7 @@ a.chip:hover { color: var(--kontrast-text); text-decoration: none; box-shadow: 0
 /* ===== Prüfdurchgang 24.11.2026: Kontraste, Fokus, Silbentrennung ===== */
 :root { --leise: #4f5d70; }
 .f-rollen { --feld-text: #2f4fc4; } .f-ziele { --feld-text: #6d28d9; } .f-flow { --feld-text: #0e6a80; } .f-training { --feld-text: #04704f; }
-.f-haltung { --feld-text: #b23a0a; } .f-strategie { --feld-text: #7c4a05; } .f-fuehrung { --feld-text: #ad1457; }
+.f-haltung { --feld-text: #b23a0a; } .f-strategie { --feld-text: #7c4a05; } .f-fuehrung { --feld-text: #ad1457; } .f-verhandlung { --feld-text: #3f4d63; }
 .ik-feld { color: var(--feld-text, var(--leise)); text-transform: none; letter-spacing: 0; font-size: 13px; }
 .idee-kopf .badge { color: var(--feld-text, var(--kontrast-text)); }
 .quellen, .meta-klein, .hinweis-klein, .k-text, .g-text, .fuss, .toc-titel, .ik-fuss { color: #4a5668; }
@@ -323,3 +323,14 @@ a.chip:hover { color: var(--kontrast-text); text-decoration: none; box-shadow: 0
 .lk-linien { z-index: 2; }
 .lk-linien path { stroke-opacity: .5; stroke-width: 1.8; }
 .hat-auswahl .lk-idee.nah { box-shadow: 0 0 0 2px #ffc4ae, 0 6px 14px rgba(255,106,61,.15); }
+
+/* ===== Performance (24.11.2026): Unschärfe nur noch in der Kopfleiste, Hintergrund als feste Ebene ===== */
+body { background: #dfe4ea !important; background-attachment: scroll !important; }
+body::before { content: ""; position: fixed; inset: 0; z-index: -2; pointer-events: none;
+  background: radial-gradient(1200px 600px at 15% -10%, #f3f5f8 0%, transparent 60%), radial-gradient(900px 700px at 100% 30%, #c3ccd8 0%, transparent 60%), linear-gradient(180deg, #e4e8ee, #cfd6df); }
+.abschnitt, .toc-innen, .kachel, .g, .tabelle, .diagramm, .fuss, .ideen-kachel, .lk-feld, .lk-konzept, .lk-panel {
+  -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+.abschnitt, .toc-innen, .kachel, .ideen-kachel, .lk-feld, .lk-konzept, .lk-panel { background: rgba(255,255,255,.72); }
+.ideen-kachel { transition: transform .18s; contain: layout paint; }
+.ideen-kachel:hover { box-shadow: var(--schatten); }
+.ideen-raster { contain: layout; }
