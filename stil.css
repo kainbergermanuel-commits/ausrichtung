@@ -247,3 +247,25 @@ a.chip:hover { color: var(--kontrast-text); text-decoration: none; box-shadow: 0
 .schritte li.s-letzt { background: #fff1ec; border-color: #ffc4ae; }
 .s-nr { font-size: 24px; font-weight: 800; color: var(--kontrast-text); line-height: 1; }
 @media (max-width: 600px) { .grafik { overflow-x: auto; } .grafik svg { min-width: 540px; } }
+
+/* ===== Prüfdurchgang 24.11.2026: Kontraste, Fokus, Silbentrennung ===== */
+:root { --leise: #4f5d70; }
+.f-rollen { --feld-text: #2f4fc4; } .f-ziele { --feld-text: #6d28d9; } .f-flow { --feld-text: #0e6a80; } .f-training { --feld-text: #04704f; }
+.f-haltung { --feld-text: #b23a0a; } .f-strategie { --feld-text: #7c4a05; } .f-fuehrung { --feld-text: #ad1457; }
+.ik-feld { color: var(--feld-text, var(--leise)); text-transform: none; letter-spacing: 0; font-size: 13px; }
+.idee-kopf .badge { color: var(--feld-text, var(--kontrast-text)); }
+.quellen, .meta-klein, .hinweis-klein, .k-text, .g-text, .fuss, .toc-titel, .ik-fuss { color: #4a5668; }
+.toc-titel { font-size: 12.5px; }
+.kachel:focus-visible, .ideen-kachel:focus-visible, .chip:focus-visible, .knopf:focus-visible, .kopf nav a:focus-visible,
+.toc a:focus-visible, .filter button:focus-visible, .text a:focus-visible, .zurueck:focus-visible, .blaettern a:focus-visible, .marke:focus-visible {
+  outline: 3px solid var(--kontrast); outline-offset: 3px; border-radius: 12px; }
+.text p, .text li, .text td, .ik-kern, .k-text, .kern { hyphens: auto; -webkit-hyphens: auto; }
+.ideen-kachel:hover .ik-titel { color: var(--feld-text, var(--text)); }
+.toc li a:hover, .toc li a:focus-visible { background: rgba(255,255,255,.85); }
+.text a { text-decoration: underline; text-decoration-color: rgba(49,87,213,.35); text-underline-offset: 3px; }
+.text a:hover { text-decoration-color: currentColor; }
+.text a.chip { text-decoration: none; }
+:root { --kontrast-text: #a3360a; --akzent: #2a4bc4; }
+.leer { color: #4a5668; }
+.blaettern a { color: #1e293b; background: rgba(255,255,255,.75); border: 1px solid #fff; padding: 8px 14px; border-radius: 999px; box-shadow: inset 0 1px 0 #fff; }
+.blaettern a:hover { color: var(--kontrast-text); text-decoration: none; box-shadow: 0 6px 16px rgba(255,106,61,.18); }
