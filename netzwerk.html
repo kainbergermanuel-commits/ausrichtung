@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ideen-Netzwerk · Ausrichtung</title>
+<meta name="description" content="Die Ideen verknüpft mit Forschung, Philosophie und Praxis: Quellen, Verwandtes, Stützendes und Spannungen.">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<header class="kopf"><div class="breit"><a class="marke" href="index.html">Ausrichtung</a><nav><a href="merath-uebersicht.html">Merath kompakt</a><a href="merath.html">Merath ausführlich</a><a href="netzwerk.html" aria-current="page">Netzwerk</a><a href="schulentwicklung.html">Schulentwicklung</a></nav></div></header>
+<main class="breit text"><h1 id="ideen-netzwerk">Ideen-Netzwerk</h1><p>Hier werden die Ideen aus den Quellen mit Konzepten aus Forschung, Philosophie und Praxis verbunden. So wird aus einer Sammlung von Zusammenfassungen ein Denkraum.</p>
+<p><strong>So liest man die Verbindungen</strong></p>
+<ul>
+<li><strong>⇐ Quelle:</strong> Die Idee stammt erkennbar von dort oder ist dort zuerst ausgearbeitet.</li>
+<li><strong>＝ Verwandt:</strong> dieselbe Struktur in einem anderen Feld.</li>
+<li><strong>＋ Stützt:</strong> Forschung, die die Idee trägt.</li>
+<li><strong>⚡ Spannung:</strong> Hier widerspricht sich etwas. Daraus lernt man meist am meisten.</li>
+</ul>
+<p>Bei der Belastbarkeit steht ● für gut belegt, ◐ für teilweise belegt oder umstritten und ○ für Praxiswissen oder Philosophie.</p>
+<hr>
+<h2 id="die-karte">Die Karte</h2><div class="karte" title="Antippen zum Vergrößern"><pre class="mermaid">graph LR
+  subgraph Rollen und Systeme
+    FMU[F/M/U-Rollen]
+    ENG[Engpass]
+    CAP[30-Stunden-Grenze]
+    FALLE[Flow-Falle der F-Aufgabe]
+  end
+  subgraph Ziele und Glück
+    ZP[Ziele-Paradox]
+    ZMU[Ziel-Mittel-Umkehr]
+    WER[Wer willst du werden]
+    REF[Emotionales Referenzbild]
+  end
+  subgraph Flow und Training
+    FLOW[Flow]
+    TR[Training statt Lernen]
+    GRP[Trainingsgruppe / Bertram]
+    GUERT[Gürtel]
+  end
+  subgraph Gewohnheiten
+    JP[Jean-Paul]
+    MG[Mastergewohnheit]
+    LECK[Leckerli]
+    BL[Backlog max. 4]
+  end
+  subgraph Haltung und Führung
+    FRANKL[Einstellung wählen]
+    GINFO[Gefühle als Information]
+    LOB[Lobrunde]
+    RICHT[Richtung reicht]
+  end
+
+  GERBER([Gerber: E-Myth]) -->|Quelle| FMU
+  MEWES([Mewes: EKS / Goldratt: TOC]) -->|Quelle| ENG
+  PARK([Parkinsons Gesetz]) -.->|verwandt| CAP
+  KOMP([Kompetenzfalle]) -->|erklärt| FALLE
+  HED([Hedonische Anpassung]) -->|stützt| ZP
+  SDT([Selbstbestimmungstheorie]) -->|stützt| ZP
+  SDT ==>|Spannung| LECK
+  CLEAR([Clear: identitätsbasierte Gewohnheiten]) -->|verwandt| WER
+  AI([Appreciative Inquiry]) -->|verwandt| REF
+  AI -->|verwandt| LOB
+  ERIC([Ericsson: Deliberate Practice]) ==>|Spannung| FLOW
+  ERIC -->|stützt| TR
+  ZPD([Vygotsky: Zone der nächsten Entwicklung]) -->|verwandt| FLOW
+  HATTIE([Hattie: Feedback]) -->|stützt| GRP
+  COP([Community of Practice / Lesson Study]) -->|verwandt| GRP
+  DREY([Dreyfus-Kompetenzstufen]) -->|verwandt| GUERT
+  FOGG([Fogg: Tiny Habits]) -->|verwandt| JP
+  GOLL([Gollwitzer: Wenn-dann-Pläne]) -->|stützt| MG
+  SCHOEN([Schön: reflektierende Praxis]) -->|verwandt| MG
+  KANBAN([Kanban: WIP-Limit]) -->|verwandt| BL
+  EGO([Ego-Depletion]) ==>|Spannung| JP
+  STOA([Stoa: Dichotomie der Kontrolle]) -->|Quelle| FRANKL
+  AFF([Affekt als Information]) -->|stützt| GINFO
+  HOF([Hofbauer: Wahrnehmen ohne Beurteilung]) ==>|Spannung| LOB
+  WEICK([Weick: Jede Karte hilft]) -->|stützt| RICHT
+
+  subgraph Teil 3 und 4
+    STRAT[5 Strategieschritte]
+    ANGST[Angst als einziges Hindernis]
+    ABSCH[Täglicher Abschied]
+    LF[8 Bereiche Lebensfreude]
+    STAT[Innerer Status]
+    PREIS[Den Preis bezahlen]
+    WID[Widerstand mitnehmen]
+    ORG[Organisationale Gewohnheiten]
+  end
+  RIES([Ries & Trout: Positionierung]) -->|Quelle| STRAT
+  JTBD([Christensen: Jobs to be done]) -->|verwandt| STRAT
+  EDM([Edmondson: psychologische Sicherheit]) -->|stützt| ANGST
+  SUNK([Sunk-Cost / Besitztumseffekt]) -->|erklärt| ABSCH
+  SENECA([Stoa: Praemeditatio malorum]) -->|Quelle| ABSCH
+  JOY([Dalai Lama & Tutu: Book of Joy]) -->|Quelle| LF
+  JOHN([Johnstone: Hoch- und Tiefstatus]) -->|verwandt| STAT
+  WAAL([de Waal: Alpha als Schlichter]) -->|stützt| STAT
+  SVT([Schulz von Thun: 4 Seiten]) -->|Quelle| WID
+  NVC([Rosenberg: Gewaltfreie Kommunikation]) -->|verwandt| WID
+  DUH([Duhigg: Schlüsselgewohnheiten]) -->|Quelle| ORG
+  HEATH([Heath: Switch]) -->|Quelle| ORG
+  EDM ==>|Spannung| STAT
+  PART([Partizipative Schulentwicklung]) ==>|Spannung| STRAT
+  ANGST --> ABSCH --> PREIS
+  STAT --> WID
+  MG --> ORG
+  LOB --> ORG
+
+  subgraph Teil 4 und 5
+    LERN[Lernen während der Arbeit]
+    SPIEL[Aufmerksamkeit ohne Bewertung]
+    PRIO[Teamflow vor Ergebnis]
+    ZWEI[Der zweite Job]
+    BONI[Boni schaden]
+    FB[Feedback in Situation und danach]
+  end
+  ERIC -->|Quelle| LERN
+  GALL([Gallwey: Inner Game]) -->|Quelle| SPIEL
+  HOF -->|stützt| SPIEL
+  KEGAN([Kegan: An Everyone Culture]) -->|Quelle| ZWEI
+  SDT -->|stützt| BONI
+  AAR([After Action Review]) -->|verwandt| FB
+  CAND([Scott: Radical Candor]) ==>|Spannung| FB
+  SCHWARTZ([Schwartz: Wertetheorie]) ==>|Spannung| PRIO
+  SPIEL --> ZWEI
+  ANGST --> ZWEI
+
+  subgraph Schranner: Verhandlung und Konflikt
+    LOES[Lösen statt überzeugen]
+    WW[Win-Win nur bei gemeinsamer Wertebasis]
+    EMP[Empathie als Werkzeug]
+    KOEN[Den König spielen die anderen]
+    LETZT[Letztes Wort nicht am Tisch]
+    SCHW[Schwierig statt Nein]
+    ZUK[Zukunft statt Vergangenheit]
+    UNIF[Feuerwehr-Uniform]
+    SCHAM[Scham will Ansehen zurück]
+  end
+  HARV([Fisher & Ury: Harvard-Konzept]) ==>|Spannung| WW
+  AXEL([Axelrod: wiederholtes Spiel]) ==>|Spannung| WW
+  CARK([Carkhuff: additive Empathie]) -->|Quelle| EMP
+  ROG([Rogers: aktives Zuhören]) -->|verwandt| EMP
+  VOSS([Voss: taktische Empathie]) -->|verwandt| SCHW
+  RAP([Rapoport-Regeln]) -->|verwandt| EMP
+  GOFF([Goffman: Facework]) -->|stützt| UNIF
+  SUNZI([Sunzi: goldene Brücke]) -->|Quelle| UNIF
+  DESH([de Shazer: Lösungsorientierung]) -->|verwandt| ZUK
+  NOBL([No-Blame-Approach]) -->|verwandt| ZUK
+  REST([Restorative Practice]) ==>|Spannung| ZUK
+  GLASL([Glasl: Eskalationsstufen]) -->|verwandt| WW
+  EKMAN([Ekman: Refraktärphase]) -->|Quelle| SCHAM
+  KOEN ==>|Spannung| STAT
+  JOHN -->|verwandt| KOEN
+  EMP --> WID
+  UNIF --> SCHAM
+  LETZT ---|verwandt| FMU
+
+  ZP --> ZMU --> FLOW
+  FLOW --- TR
+  TR --> MG
+  JP --> LECK
+  GRP --> TR
+  FMU --> CAP
+  FALLE --> FMU</pre></div><p class="klein">Tipp: Karte antippen, um zwischen Überblick und Originalgröße zu wechseln.</p><hr>
+<h2 id="1-rollen-und-systeme">1 · Rollen und Systeme</h2><p><strong>F/M/U-Rollen</strong></p>
+<ul>
+<li>⇐ <strong>Michael Gerber, <em>The E-Myth</em> (1986)</strong> ○: Techniker, Manager, Unternehmer. Meraths Dreiteilung entspricht genau diesem Modell und ist im Kern die deutsche Fassung. Gerbers berühmter Satz: „Work <em>on</em> your business, not <em>in</em> it.“</li>
+<li>＝ <strong>Mintzberg: Rollen einer Führungskraft</strong> ◐: Er zeigt empirisch, dass Führungskräfte in Wirklichkeit dauernd unterbrochen werden und kleinteilig reagieren. Merath zeichnet ein Idealbild, Mintzberg beschreibt die Wirklichkeit.</li>
+</ul>
+<p><strong>Flow-Falle der F-Aufgabe</strong> (Jan verkauft selbst, weil er dabei in den Flow kommt)</p>
+<ul>
+<li>＋ <strong>Kompetenzfalle (Levitt &amp; March 1988)</strong> ●: Organisationen und Menschen bleiben bei dem, was sie gut können, weil dort die schnellen Erfolge liegen. Dadurch lernen sie das Neue nie, das sie eigentlich bräuchten. Das ist die wissenschaftliche Fassung von Wolfgangs Befund.</li>
+<li>＝ <strong>Exploitation statt Exploration (March 1991)</strong> ●: Nur das Bekannte auszuschöpfen bringt kurzfristig Gewinn und langfristig Stillstand.</li>
+</ul>
+<p><strong>Engpass</strong></p>
+<ul>
+<li>⇐ <strong>Wolfgang Mewes: Engpasskonzentrierte Strategie (EKS, ab 1970)</strong> ○: die deutsche Quelle. Merath kommt vermutlich aus dieser Schule, und auch der Name „Wolfgang“ wirkt wie eine Verbeugung, das ist aber nur eine Vermutung.</li>
+<li>＝ <strong>Goldratt: Theory of Constraints (<em>The Goal</em>, 1984)</strong> ◐: Jedes System hat genau einen Engpass. Wer etwas anderes optimiert, verschwendet Aufwand. Auffällig: <em>The Goal</em> ist ebenfalls ein Roman, der eine Managementlehre trägt, genau wie Meraths Buch.</li>
+<li>＝ <strong>Pareto (80/20)</strong> ○: Daher kommt die Bestandskunden-Faustregel.</li>
+</ul>
+<p><strong>30-Stunden-Grenze (Sophia)</strong></p>
+<ul>
+<li>＝ <strong>Parkinsons Gesetz (1955)</strong> ○: Arbeit dehnt sich so weit aus, wie Zeit zur Verfügung steht. Die Umkehrung bei Sophia lautet: Eine knappe Zeit zwingt zu besseren Systemen.</li>
+<li>＝ <strong>Kreativität durch Einschränkung</strong> ◐: Studien zeigen, dass Einschränkungen in Maßen die Kreativität fördern und zu enge Grenzen sie wieder hemmen. Es ist die gleiche umgekehrte U-Kurve wie bei Flow und Überforderung.</li>
+</ul>
+<hr>
+<h2 id="2-ziele-und-glück">2 · Ziele und Glück</h2><p><strong>Ziele-Paradox</strong> (zwei Minuten Freude über die erste Million)</p>
+<ul>
+<li>＋ <strong>Hedonische Anpassung (Brickman, Coates &amp; Janoff-Bulman 1978)</strong> ◐: In dieser Studie waren Lottogewinner nach einiger Zeit kaum glücklicher als andere. Die Studie ist klein und wird oft übertrieben zitiert, der Grundbefund der Anpassung ist aber gut belegt.</li>
+<li>＋ <strong>Kasser &amp; Ryan: äußere und innere Lebensziele (1993/96)</strong> ●: Wer vor allem Geld, Status und Image anstrebt, hat im Mittel ein geringeres Wohlbefinden als jemand, der Beziehung, Wachstum und Gemeinschaft anstrebt. Das stützt den Kern von Meraths Paradox am stärksten.</li>
+<li>＝ <strong>Ben-Shahar: Ankunftsfehlschluss („arrival fallacy“)</strong> ○: der Irrglaube, dass das Ankommen glücklich macht.</li>
+<li>＝ <strong>Buddhismus: Anhaftung</strong> ○: Merath zitiert selbst Atisha, einen indischen Meister des 11. Jahrhunderts, der in Tibet lehrte.</li>
+</ul>
+<p><strong>Ziel-Mittel-Umkehr</strong> (der Gipfel als Struktur für das Klettern)</p>
+<ul>
+<li>＝ <strong>Sportpsychologie: Ergebnis-, Leistungs- und Prozessziele</strong> ●: Prozessziele („saubere Technik im dritten Satz“) steuern die Leistung im Moment besser als Ergebnisziele („gewinnen“). Gute Trainer kombinieren beide Arten von Zielen.</li>
+<li>＝ <strong>Csikszentmihalyi: autotelische Tätigkeit</strong> ●: eine Tätigkeit, die ihren Zweck in sich selbst trägt.</li>
+<li>⚡ <strong>Locke &amp; Latham: Zielsetzungstheorie</strong> ●: Konkrete, schwierige Ergebnisziele steigern die Leistung, und das ist sehr gut belegt. Merath wertet Ziele also zu stark ab. Treffender ist: Ziele steigern die Leistung, machen aber nicht automatisch glücklich.</li>
+</ul>
+<p><strong>„Wer willst du werden?“</strong></p>
+<ul>
+<li>＝ <strong>James Clear, <em>Atomic Habits</em>: identitätsbasierte Gewohnheiten</strong> ○: Jede ausgeführte Gewohnheit ist eine „Stimme“ für die Person, die man werden will. Bei Merath steckt derselbe Gedanke darin, dass ein Schwarzgurt jemand mit anderen Gewohnheiten ist.</li>
+<li>＝ <strong>Aristoteles: Hexis</strong> ○: Charakter entsteht durch wiederholtes Handeln. „Gerecht wird man, indem man gerecht handelt.“ Merath nennt Aristoteles selbst als Quelle.</li>
+</ul>
+<p><strong>Emotionales Referenzbild</strong> (die Jahre 1997 bis 2000)</p>
+<ul>
+<li>＝ <strong>Appreciative Inquiry (Cooperrider &amp; Srivastva 1987)</strong> ◐: Veränderung beginnt mit der Frage, wann es schon einmal gut war, und nicht bei der Analyse von Mängeln.</li>
+<li>＝ <strong>Lösungsorientierte Kurztherapie (de Shazer)</strong> ◐: die Frage nach den „Ausnahmen“, also nach Zeiten, in denen das Problem schon einmal nicht da war.</li>
+</ul>
+<p><strong>Glück vor Erfolg (Achor)</strong></p>
+<ul>
+<li>＋ <strong>Lyubomirsky, King &amp; Diener (2005), Meta-Analyse</strong> ◐: Positiver Affekt geht Erfolg oft voraus. Die meisten Daten sind aber korrelativ.</li>
+<li>＋ <strong>Fredrickson: Broaden-and-Build</strong> ◐: Positive Gefühle erweitern Denken und Handlungsspielraum. Der Kern gilt als plausibel, eine bekannte Zusatzrechnung, die Losada-Ratio, wurde jedoch zurückgezogen.</li>
+</ul>
+<hr>
+<h2 id="3-flow-und-training">3 · Flow und Training</h2><p><strong>Flow</strong></p>
+<ul>
+<li>⇐ <strong>Csikszentmihalyi (1975/1990)</strong> ●</li>
+<li>＝ <strong>Vygotsky: Zone der nächsten Entwicklung</strong> ●: „Etwas über den eigenen Fähigkeiten“ ist dieselbe Struktur wie in der Pädagogik. Der Flow-Kanal <em>ist</em> im Grunde die Zone der nächsten Entwicklung, ein- und dieselbe Form in zwei Disziplinen. Bei Vygotsky kommt das <strong>Gerüst (Scaffolding)</strong> dazu, also eine Person, die vorübergehend stützt. Das entspricht Meraths Trainern.</li>
+<li>⚡ <strong>Ericsson: Deliberate Practice (1993)</strong> ●/◐: Gezieltes Üben ist anstrengend und nicht von sich aus angenehm. Merath will Flow überall. Eine mögliche Auflösung: Training ist der Weg <em>in den</em> Flow-Kanal, aber nicht immer der Flow selbst. Wie groß der Anteil der Übung an Leistung insgesamt ist, ist übrigens umstritten. Macnamara et al. (2014) zeigen, dass er je nach Bereich klein bis mittel ist.</li>
+</ul>
+<p><strong>Training statt Lernen</strong></p>
+<ul>
+<li>＋ <strong>Prozedurales und deklaratives Gedächtnis (Squire)</strong> ●: Der Patient E.P., den Merath erwähnt, ist ein echter Fall aus der Forschung.</li>
+<li>＝ <strong>Träges Wissen (Whitehead 1929, Renkl 1996)</strong> ●: Wissen, das man hat, aber in der Situation nicht anwendet. Das ist das zentrale Problem der Lehrerbildung.</li>
+<li>＝ <strong>Theorie-Praxis-Kluft in der Lehrerbildung (Korthagen)</strong> ●: Korthagen nennt den Ansatz „realistische Lehrerbildung“. Gemeint ist: von konkreten Situationen ausgehen, reflektieren und daraus erst Theorie bilden.</li>
+</ul>
+<p><strong>Trainingsgruppe und Bertram</strong></p>
+<ul>
+<li>＋ <strong>Hattie: Feedback (Effekt d ≈ 0,7)</strong> ●/◐: Rückmeldung gehört zu den stärksten Einflüssen auf Lernen. Das bestätigt die These, dass die Gruppe vor allem die Rückmeldezeit verkürzt.</li>
+<li>＝ <strong>Communities of Practice (Lave &amp; Wenger 1991)</strong> ●: Man lernt, indem man in einer Praxisgemeinschaft vom Rand in die Mitte hineinwächst.</li>
+<li>＝ <strong>Lesson Study (Japan) und kollegiale Hospitation</strong> ◐: die Trainingsgruppe in der Form für Lehrkräfte.</li>
+<li>＝ <strong>Anonyme Alkoholiker: Sponsor-System</strong> ○: Der „Bertram“ hat ein Vorbild mit langer Tradition.</li>
+</ul>
+<p><strong>Gürtel</strong></p>
+<ul>
+<li>＝ <strong>Dreyfus-Modell: Novize, Fortgeschrittener Anfänger, Kompetent, Gewandt, Experte (1980)</strong> ◐: Hier gibt es ebenfalls Stufen, die man nicht immer der Reihe nach durchläuft. Experten handeln intuitiv und nicht nach Regeln.</li>
+<li>＝ <strong>Kaizen</strong> ○: tägliche kleine Verbesserung. „Den Schwarzgurt besitzt man nicht, man trainiert ihn täglich.“</li>
+</ul>
+<hr>
+<h2 id="4-gewohnheiten">4 · Gewohnheiten</h2><p><strong>Jean-Paul</strong> (die Basalganglien funktionieren wie ein Hund)</p>
+<ul>
+<li>＝ <strong>BJ Fogg: <em>Tiny Habits</em> (2019)</strong> ○/◐: Die Methode ist fast identisch mit Meraths Vorgehen: winzig anfangen, an eine bestehende Gewohnheit anhängen, sofort feiern. Merath fügt die tägliche Meta-Ebene der Mastergewohnheit hinzu.</li>
+<li>＝ <strong>Duhigg: Gewohnheitsschleife</strong> ◐: Auslöser, Routine, Belohnung.</li>
+<li>＝ <strong>Kahneman: System 1 und System 2</strong> ◐: eine grobe Entsprechung. Großhirn und Basalganglien sind eine anatomische Vereinfachung, „schnell und automatisch“ gegenüber „langsam und bewusst“ eine psychologische.</li>
+<li>＋ <strong>Lally et al. (2010)</strong> ●: Im Median dauert es rund 66 Tage, bis eine Gewohnheit automatisch läuft, die Spanne reicht von 18 bis 254 Tagen. Ein einzelner ausgelassener Tag schadet nicht. Das bestätigt Meraths Rat, nicht in Kategorien wie „Fehlschlag“ zu denken.</li>
+<li>⚡ <strong>Ego-Depletion (Baumeister 1998)</strong> ◐/○: Das Radieschen-Experiment ließ sich in einer großen Mehrlabor-Studie (Hagger et al. 2016) kaum bestätigen. Meraths <em>Schlussfolgerung</em> gilt trotzdem, nur mit anderer Begründung. Nach Inzlicht ist Willenskraft eher eine Frage der Motivation und Aufmerksamkeit als eine Art „Tank“, der leerläuft. Kleine Gewohnheiten sind also trotzdem klug.</li>
+</ul>
+<p><strong>Mastergewohnheit</strong></p>
+<ul>
+<li>＋ <strong>Gollwitzer: Implementation Intentions</strong> ●: „Wenn X, dann tue ich Y.“ In der Meta-Analyse von Gollwitzer &amp; Sheeran (2006) liegt der Effekt bei d ≈ 0,65. Meraths Regel „fester Ort und feste Zeit, an eine Gewohnheit angehängt“ ist genau das.</li>
+<li>＝ <strong>Schön: The Reflective Practitioner (1983)</strong> ●: Reflexion <em>im</em> Handeln und <em>über</em> das Handeln. Die Mastergewohnheit ist eine tägliche Reflexion über das Handeln, nur auf einen Punkt verdichtet. Das ist ein Grundbegriff der Lehrerbildung.</li>
+<li>＝ <strong>Kolb: Lernzyklus</strong> ◐: Erfahrung, Reflexion, Begriff, Ausprobieren, und dann das Ganze täglich.</li>
+<li>＝ <strong>Dweck: Fehlschlag als Information (Growth Mindset)</strong> ◐: Die Grundidee ist verbreitet, die Wirkung von Interventionen ist aber klein (Sisk et al. 2018).</li>
+</ul>
+<p><strong>Backlog mit höchstens vier Einträgen</strong></p>
+<ul>
+<li>⇐ <strong>Scrum</strong> (Merath nennt es selbst)</li>
+<li>＝ <strong>Kanban: Begrenzung der laufenden Arbeit (WIP-Limit)</strong> ◐: Wer weniger gleichzeitig anfängt, wird mit mehr fertig. „Höchstens vier Gewohnheiten“ ist ein WIP-Limit für das eigene Leben, und die Liste „Im Training“ in <code>00_Ideen.md</code> setzt dasselbe Prinzip um.</li>
+</ul>
+<p><strong>Leckerli</strong> (sofortige Belohnung)</p>
+<ul>
+<li>⚡ <strong>Selbstbestimmungstheorie (Deci &amp; Ryan) und Korrumpierungseffekt</strong> ●: Belohnungen von außen können innere Motivation untergraben, vor allem bei Tätigkeiten, die schon interessant sind, und bei Belohnungen, die <em>kontrollierend</em> wirken.</li>
+<li><strong>Auflösung, die im Text schon angelegt ist:</strong> Jan lässt bei Paul das Leckerli „auslaufen“, sobald der Hund „Sitz“ kann. Danach gibt es nur noch Lob. Die Belohnung ist also ein <strong>Gerüst, das man wieder abbaut</strong>. Die SDT unterscheidet außerdem <em>informierendes</em> Feedback („Das hast du geschafft“) von <em>kontrollierendem</em> („Wenn du das machst, bekommst du …“). Nur das kontrollierende schadet.</li>
+</ul>
+<hr>
+<h2 id="5-haltung-und-führung">5 · Haltung und Führung</h2><p><strong>Einstellung wählen (Frankl)</strong></p>
+<ul>
+<li>⇐ <strong>Stoa, Epiktet: Dichotomie der Kontrolle</strong> ○: „Nicht die Dinge beunruhigen uns, sondern unsere Urteile über die Dinge.“ Frankl steht in dieser Linie.</li>
+<li>＝ <strong>Kognitive Verhaltenstherapie (Beck, Ellis)</strong> ●: Die moderne, gut belegte Fassung davon sind Gedanken, die Gefühle vermitteln. Gefühle lassen sich nicht direkt „wählen“, aber die Bewertungen, die sie auslösen, lassen sich üben.</li>
+<li>⚡ <strong>Kritik:</strong> Den Satz „Verletztheit ist eine Wahl“ kann man als Schuldzuweisung lesen. Frankl meint die <em>letzte</em> Freiheit unter extremen Umständen. Gemeint ist nicht, dass ein Gefühl im ersten Moment schon falsch ist. Wolfgang sagt selbst, dass die Gefühle zuerst einfach <em>da</em> sind.</li>
+</ul>
+<p><strong>Gefühle als Information</strong></p>
+<ul>
+<li>＋ <strong>„Affect as information“ (Schwarz &amp; Clore 1983)</strong> ●: So heißt das Konzept in der Forschung tatsächlich. Gefühle liefern Informationen über die Lage. Merath macht daraus eine Handlungsregel: Hilflosigkeit bedeutet, dass das Werkzeug fehlt, also lernt man dazu.</li>
+<li>＝ <strong>Emotionsregulation: Neubewertung (Gross)</strong> ●</li>
+</ul>
+<p><strong>Metta-Meditation und Verzeihen</strong></p>
+<ul>
+<li>＋ <strong>Liebende-Güte-Meditation (Fredrickson 2008, Hofmann 2011)</strong> ◐/●: Positive Effekte auf Gefühle und Verbundenheit sind belegt.</li>
+<li>＋ <strong>Verzeihen (Worthington: REACH-Modell)</strong> ◐: Verzeihen tut vor allem dem gut, der verzeiht, ganz wie Merath es sagt.</li>
+</ul>
+<p><strong>Lobrunde</strong></p>
+<ul>
+<li>＝ <strong>Appreciative Inquiry</strong> ◐, ＝ <strong>positives Klassenklima / Classroom Management</strong> ◐.</li>
+<li>⚡ <strong>Hofbauer: „wertschätzendes Wahrnehmen ohne Beurteilung“</strong>: Ein Lob <em>ist</em> eine Beurteilung, nur eine positive. Hofbauer verlangt, wahrzunehmen, ohne zu bewerten. Merath will die Kultur über positive Bewertung drehen.</li>
+<li><strong>Mögliche Synthese:</strong> Am Anfang eine Lobrunde, um aus einem rauen Ton herauszukommen. Später der reifere Schritt zur <strong>Würdigung durch genaues Beschreiben</strong> („Mir ist aufgefallen, dass du …“). Diese Form ist auch im Sinne der SDT eher informierend als kontrollierend.</li>
+</ul>
+<p><strong>Richtung reicht</strong></p>
+<ul>
+<li>＋ <strong>Weick: „Jede Karte hilft“</strong> ●/○: Eine Einheit von Soldaten verirrt sich in den Alpen und findet mit einer Karte zurück, die sich danach als Karte der Pyrenäen herausstellt. Weick folgert: Eine Karte bringt Menschen ins Handeln, und das Handeln erzeugt dann die richtigen Hinweise. Das ist genau Wolfgangs Satz, dass eine Richtung reicht, auch wenn sie anfangs falsch ist.</li>
+<li>＝ <strong>Sensemaking</strong> ●: Führung heißt, Menschen bei Unsicherheit einen Sinn anzubieten.</li>
+</ul>
+<p><strong>Organisationale Gewohnheiten</strong></p>
+<ul>
+<li>＝ <strong>Nelson &amp; Winter: Routinen (1982)</strong> ●, ＝ <strong>Schein: Ebenen der Kultur</strong> ●: Artefakte wie die Lobrunde verändern auf Dauer die Grundannahmen einer Organisation, aber nur, wenn sie lange genug durchgehalten werden.</li>
+<li>＝ <strong>Schulentwicklung (Rolff)</strong>: Rituale und Routinen als Hebel der Schulkultur.</li>
+</ul>
+<p><strong>Erwartungsmanagement</strong></p>
+<ul>
+<li>＋ <strong>Erwartungsbestätigung (Oliver 1980)</strong> ●: Zufriedenheit ergibt sich aus dem Abstand zwischen Erwartung und dem, was man erlebt.</li>
+</ul>
+<hr>
+<h2 id="6-strategie-angst-status-organisation-merath-teil-3-und-4-ergänzt-23-11">6 · Strategie, Angst, Status, Organisation (Merath Teil 3 und 4, ergänzt 23.11.)</h2><p><strong>Die fünf Strategieschritte</strong></p>
+<ul>
+<li>⇐ <strong>Ries &amp; Trout: <em>Positioning</em> (1981)</strong> ○: „Erster in den Köpfen“ ist wörtlich deren Kernsatz.</li>
+<li>⇐ <strong>Mewes: EKS</strong> ○: kleinste Zielgruppe, brennendstes Problem, eine Lösung. Merath nennt im Buch selbst „engpasskonzentrierte Strategie“ als eine der Strategielehren, die man gelesen haben kann.</li>
+<li>＝ <strong>Christensen: Jobs to be done</strong> ◐: Man fragt nicht „Was verkaufe ich?“, sondern „Welche Aufgabe will der Kunde erledigt haben?“. Dass Jan die Seminarveranstalter beim Gewinnen von Teilnehmern unterstützen soll, ist genau dieser Gedanke.</li>
+<li>＝ <strong>Blue Ocean (Kim &amp; Mauborgne): eliminieren, reduzieren, steigern, neu schaffen</strong> ◐: Die Tagungspauschale abzuschaffen und Vollpension anzubieten ist ein klassischer Schritt nach dem Muster „eliminieren und neu schaffen“.</li>
+<li>＝ <strong>Lean Startup (Ries), OODA-Loop (Boyd)</strong> ◐: Strategie als schnelle Schleife aus Hypothese, Kundengespräch und Anpassung. „Ein Praktikum beim Kunden“ entspricht Ethnografie und Design Thinking, im Lean-Management heißt es „Gemba“, also hingehen, wo die Arbeit passiert.</li>
+<li>⚡ <strong>Partizipative Schulentwicklung (Rolff u. a.)</strong> ●: Merath sagt, man solle die Strategie zunächst allein entwickeln, weil Beteiligung in einer ängstlichen Organisation nur Eigeninteressen bediene. Die Schulentwicklungsforschung setzt umgekehrt auf Beteiligung, weil ohne sie die Umsetzung scheitert. Merath erkauft sich Tempo mit Konflikten, die er bei der Umsetzung selbst bekommt. Mögliche Synthese: <strong>die Richtung allein festlegen, den Weg gemeinsam gestalten.</strong> So geht Wolfgang später auch mit Katharina vor.</li>
+</ul>
+<p><strong>Angst als einziges Hindernis / angstfreie Organisation</strong></p>
+<ul>
+<li>＋ <strong>Edmondson: psychologische Sicherheit (1999)</strong> ●: das am besten belegte Konzept in diesem Teil. Teams lernen und berichten Fehler nur, wenn Offenheit ihnen nicht schadet. Merath meint dasselbe, wenn er von einer „angstfreien Organisation“ spricht.</li>
+<li>⚡ <strong>Spannung innerhalb von Merath selbst:</strong> Edmondson betont, dass psychologische Sicherheit flache, gewährende Führung braucht. Merath setzt zuerst auf ein „glasklares Statusgefüge“ und eine öffentliche Grenzziehung. Beides schließt sich nicht aus: Sicherheit entsteht gerade dadurch, dass jemand schützt, siehe de Waal unten. Trotzdem ist es ein Unterschied in der Betonung.</li>
+<li>＝ <strong>Amygdala-Übernahme / Yerkes-Dodson</strong> ◐: In der Panikzone fällt das klare Denken aus. Es ist dieselbe umgekehrte U-Kurve wie bei Flow und Einschränkung (Abschnitt 1).</li>
+</ul>
+<p><strong>Der tägliche Abschied</strong> (vom Unternehmen, vom Vermögen und sogar vom Partner)</p>
+<ul>
+<li>⇐ <strong>Stoa: Praemeditatio malorum, „negative Visualisierung“ (Seneca, Epiktet)</strong> ○: sich täglich vorstellen, das Liebste zu verlieren. Merath greift das außerdem über das Todesgedicht (<em>jisei</em>) des Samurai auf.</li>
+<li>＋ <strong>Sunk-Cost-Falle (Arkes &amp; Blumer 1985) und Besitztumseffekt (Kahneman, Thaler)</strong> ●: Man wertet höher, was man besitzt oder worin man schon investiert hat. Thomas&#39; Übung ist <strong>eine Technik gegen genau diese Verzerrungen</strong>. Wer innerlich nichts mehr besitzt, verteidigt keine verlorenen Investitionen mehr. Das ist die überzeugendste wissenschaftliche Begründung für eine Übung, die auf den ersten Blick schräg wirkt.</li>
+<li>＝ <strong>„Beraterperspektive“ / Selbstdistanzierung (Kross; Grossmann zu Salomons Paradox)</strong> ●: Über die Probleme anderer denkt man klüger nach als über die eigenen. Thomas&#39; „unbekannter Inhaber“ ist genau dieser Trick.</li>
+</ul>
+<p><strong>Acht Bereiche der Lebensfreude</strong></p>
+<ul>
+<li>⇐ <strong><em>The Book of Joy</em> (Dalai Lama &amp; Desmond Tutu, 2016)</strong> ○: Dort gibt es <strong>acht Säulen der Freude</strong>: Perspektive, Demut, Humor, Annehmen, Vergebung, Dankbarkeit, Mitgefühl, Großzügigkeit. Meraths acht Bereiche stimmen in sieben Punkten überein, er nennt die beiden im Text sogar. Statt <strong>Humor</strong> setzt er <strong>Umfeld</strong> ein. Das ist bemerkenswert, denn ausgerechnet der Humor fehlt dem ernsten Leistungsmenschen Jan.</li>
+<li>＋ <strong>Dankbarkeitsinterventionen (Emmons &amp; McCullough 2003)</strong> ◐: kleine bis mittlere Effekte auf das Wohlbefinden.</li>
+<li>＝ <strong>Akzeptanz- und Commitment-Therapie (Hayes)</strong> ●: „Annehmen, was ist“ als Voraussetzung, um handeln zu können. Annehmen heißt dort nicht Resignation, und genau so meint es Sophia.</li>
+</ul>
+<p><strong>Innerer Status und „Alphatest“</strong></p>
+<ul>
+<li>＝ <strong>Keith Johnstone: Hoch- und Tiefstatus (<em>Impro</em>, 1979)</strong> ◐: Der Statusbegriff stammt aus dem Improvisationstheater und wird in der Lehrerbildung genutzt (Körpersprache, Pausen, Raum einnehmen). Merath beschreibt hohen Status mit dem Satz „zugewandt, gibt Raum, drückt nicht“. Das entspricht Johnstones entspanntem Hochstatus. Lautes Aufplustern ist bei Johnstone dagegen ein <em>getarnter</em> Tiefstatus, wie bei Sven.</li>
+<li>＋ <strong>Frans de Waal: <em>Chimpanzee Politics</em> (1982)</strong> ●: Ranghohe Schimpansen schlichten Streit und schützen die Schwächeren, de Waal spricht von der „control role“. Ihr Rang hängt an Koalitionen und nicht nur an Kraft. Das stützt Carlos&#39; Kern, die Sache mit den Genprozenten und dem Geruch ist dagegen Beiwerk.</li>
+<li>＝ <strong>Kounin: Withitness (1970)</strong> ●: Klassenführung lebt davon, dass die Lehrperson präsent ist und früh eingreift. Der „Alphatest“ im Klassenzimmer.</li>
+</ul>
+<p><strong>Den Preis bezahlen</strong></p>
+<ul>
+<li>＝ <strong>Sartre: radikale Freiheit</strong> ○: Merath grenzt sich selbst ab („Radikale Befürworter gehen so weit … wir machen das nicht“).</li>
+<li>＝ <strong>Stoa: Dichotomie der Kontrolle</strong> ○: Abschnitt 5, hier zu Ende gedacht.</li>
+<li>＝ <strong>Akzeptanz- und Commitment-Therapie: Bereitschaft (willingness)</strong> ●: unangenehme Folgen innerlich zulassen, um nach den eigenen Werten handeln zu können.</li>
+</ul>
+<p><strong>Widerstand mitnehmen (Katharina)</strong></p>
+<ul>
+<li>⇐ <strong>Schulz von Thun: die vier Seiten einer Nachricht</strong> ●</li>
+<li>＝ <strong>Rosenberg: Gewaltfreie Kommunikation</strong> ◐: Hinter einem Nein steht ein unerfülltes Bedürfnis, und nach genau diesem Muster geht Wolfgang vor.</li>
+<li>＝ <strong>Motivational Interviewing (Miller &amp; Rollnick)</strong> ●: Widerstand nicht bekämpfen, sondern mit ihm gehen und die eigenen Gründe für Veränderung beim anderen hervorlocken. Die Frage, was am Neuen gut sein könnte, ist eine typische Frage aus dieser Methode, die „Change Talk“ hervorlocken soll.</li>
+<li>＝ <strong>Iris&#39; „Judo“</strong> ist die Kurzform davon. ⚡ Sabrina empfindet es als manipulativ. Die Grenze zieht die Absicht: Lenkt man zum eigenen Vorteil oder zu einer gemeinsamen Lösung?</li>
+</ul>
+<p><strong>Organisationale Gewohnheiten</strong></p>
+<ul>
+<li>⇐ <strong>Duhigg: <em>The Power of Habit</em> (2012)</strong> ◐: Starbucks, Schlüsselgewohnheiten („keystone habits“), auch das Beispiel mit der Pünktlichkeit stammt sinngemäß daher.</li>
+<li>⇐ <strong>Chip &amp; Dan Heath: <em>Switch</em> (2010)</strong> ◐: Daher stammen die Stempelkarte (Nunes &amp; Drèze), die „Bright Spots“ (positive Ausnahmen feiern), die Identität und das Prinzip „Shape the Path“ (die Umgebung ändern).</li>
+<li>＋ <strong>Positive Deviance (Sternin)</strong> ●/◐: von den Ausnahmen lernen, die es schon gut machen.</li>
+<li>＋ <strong>Appreciative Inquiry / Retention-Forschung bei Pflegekräften</strong> ◐: fragen, warum jemand <em>bleibt</em>, nicht warum jemand geht. Die „Magnet Hospitals“ in den USA sind das bekannte Beispiel.</li>
+<li>＝ <strong>Lernziele und Verhaltensziele vs. Leistungsziele (Seijts &amp; Latham)</strong> ●: Bei komplexen, neuen Aufgaben wirken Lern- und Verhaltensziele besser als reine Ergebnisziele. Das stützt Meraths Kern, auch wenn seine 89/86/33-%-Zahlen keine Quelle haben.</li>
+<li>＝ <strong>Schulkultur: Rituale und Routinen</strong> ●:</li>
+</ul>
+<hr>
+<h2 id="7-lernen-teamflow-sicherheit-merath-teil-4-und-5-ergänzt-24-11">7 · Lernen, Teamflow, Sicherheit (Merath Teil 4 und 5, ergänzt 24.11.)</h2><p><strong>Lernen während der Arbeit / bewusstes Lernen</strong></p>
+<ul>
+<li>⇐ <strong>Ericsson &amp; Pool: <em>Peak</em> (2016)</strong> ●/◐: Die acht Faktoren entsprechen fast genau Ericssons Merkmalen von Deliberate Practice. Damit hat Merath meinen Vergleich aus Abschnitt 3 sozusagen selbst bestätigt, denn er beruft sich nun ausdrücklich auf Ericsson.</li>
+<li>＝ <strong>Lernziele und Erfolgskriterien (Hattie, Shirley Clarke)</strong> ●: „zwei Ziele pro Aufgabe“ ist im Unterricht längst Standard.</li>
+<li>＝ <strong>Lernen am Arbeitsplatz: 70-20-10-Modell (Lombardo &amp; Eichinger)</strong> ◐: Rund 70 % des beruflichen Lernens passieren in der Arbeit selbst. Die Zahl ist eine Faustregel ohne strenge Grundlage.</li>
+<li>＝ <strong>Jahresgespräch vs. regelmäßige Entwicklungsgespräche (Check-ins)</strong> ◐: Viele große Firmen haben das jährliche Mitarbeitergespräch zugunsten häufiger, kurzer Gespräche abgeschafft, Adobe zum Beispiel schon 2012.</li>
+</ul>
+<p><strong>Spielerisches Lernen: Aufmerksamkeit ohne Bewertung</strong></p>
+<ul>
+<li>⇐ <strong>Timothy Gallwey: <em>The Inner Game of Tennis</em> (1974) / <em>of Work</em> (2000)</strong> ○/◐: „Self 1“ kritisiert, „Self 2“ kann es eigentlich. Gallweys Rat ist, die Aufmerksamkeit auf etwas Beobachtbares zu lenken, statt zu bewerten.</li>
+<li>＋ <strong>Hofbauer: „wertschätzendes Wahrnehmen ohne Beurteilung“</strong>: Das ist <strong>die Auflösung der Spannung aus Abschnitt 5.</strong> Dort stand Meraths Lobrunde gegen Hofbauer. In Teil 4 kommt Merath über Gallwey selbst zum Prinzip „wahrnehmen, nicht bewerten“, als die fortgeschrittenere Lernform. Die Reifestufe „erst Lob, dann beschreibende Würdigung“ ist damit im Buch selbst angelegt.</li>
+<li>＝ <strong>Implizites Lernen / externer Aufmerksamkeitsfokus (Wulf 2013)</strong> ●: In der Sportwissenschaft gut belegt. Wer auf die <em>Wirkung</em> achtet (wohin der Ball fliegt) statt auf den eigenen Körper (wie sich der Arm bewegt), lernt Bewegungen besser. Gallweys Prinzip ist also empirisch gestützt.</li>
+<li>＝ <strong>Achtsamkeit (Kabat-Zinn)</strong> ●: nicht wertendes Gewahrsein.</li>
+<li>＝ <strong>Pygmalion-Effekt (Rosenthal &amp; Jacobson 1968)</strong> ◐: Ein Vertrauensvorschuss verändert, was Lernende leisten. Der Effekt ist kleiner als oft behauptet, aber er ist real.</li>
+</ul>
+<p><strong>Teamflow / Priorität vor dem Ergebnis</strong></p>
+<ul>
+<li>＝ <strong>Keith Sawyer: <em>Group Genius</em> (2007), Group Flow</strong> ◐: Merath nennt ihn selbst.</li>
+<li>＝ <strong>Simon Sinek: „Infinite Game“</strong> ○: Teams, die einem Ergebnis nachjagen, enden mit dem Ergebnis. Wer das Spiel selbst pflegt, bleibt. ⚡ Pikant: Thomas lehnt Sineks „Start with Why“ in Teil 3 ab, Wolfgang argumentiert hier fast wie Sineks zweites Buch.</li>
+<li>＝ <strong>Google, Project Aristotle (2015)</strong> ◐: Unter rund 180 Teams war psychologische Sicherheit der stärkste Faktor für Teamerfolg. Das stützt Meraths Kapitel zu Sicherheit und Vertrauen.</li>
+<li>⚡ <strong>Ziele „von oben“ statt demokratisch:</strong> Das ist die zweite Stelle (nach der Strategie in Teil 3), an der Merath auf Vorgabe setzt. Er relativiert es selbst: Die <em>Teilziele</em> erarbeitet das Team, moderiert von jemand anderem. Damit bestätigt er die These in Querverbindung 14: Die Richtung gibt die Führung vor, den Weg gestalten alle mit.</li>
+</ul>
+<p><strong>Der zweite Job</strong></p>
+<ul>
+<li>⇐ <strong>Robert Kegan &amp; Lisa Lahey: <em>An Everyone Culture</em> (2016)</strong> ●/◐: Der Satz, dass in den meisten Organisationen alle einen zweiten Job machen, nämlich ihre Schwächen zu verbergen und gut auszusehen, stammt fast wörtlich daher. Kegan nennt die Gegenmodelle „Deliberately Developmental Organizations“, also Organisationen, deren Hauptzweck die Entwicklung aller ist. Das ist <strong>genau Meraths Vision.</strong></li>
+<li>＝ <strong>Goffman: Vorderbühne und Hinterbühne</strong> ●: Wir spielen im Alltag Rollen und unterscheiden zwischen der Vorderbühne vor Publikum und der Hinterbühne, wo die Maske fällt.</li>
+</ul>
+<p><strong>Boni und Kontrolle</strong></p>
+<ul>
+<li>＋ <strong>Deci, Koestner &amp; Ryan (1999), Meta-Analyse</strong> ●: Leistungsabhängige Belohnungen senken die innere Motivation bei interessanten Aufgaben.</li>
+<li>＝ <strong>Alfie Kohn: <em>Punished by Rewards</em> (1993), Daniel Pink: <em>Drive</em> (2009)</strong> ○/◐</li>
+<li>＝ <strong>Fehlerkultur und Fehlerbudget:</strong> In der Software-Praxis gibt es dafür „Error Budgets“ (Google SRE), also bewusst eingeplante Fehler. In Kliniken und in der Luftfahrt gibt es <strong>„Just Culture“</strong> und CRM-Trainings: Fehler werden gemeldet, ohne dass jemand bestraft wird.</li>
+</ul>
+<p><strong>Feedback in der Situation und danach</strong></p>
+<ul>
+<li>＝ <strong>After Action Review (US Army)</strong> ●: die strukturierte Nachbesprechung. Merath trennt sie richtig vom Feedback in der Situation.</li>
+<li>⚡ <strong>Kim Scott: <em>Radical Candor</em> (2017)</strong> ◐: Direkt widersprechen <em>und</em> persönlich Anteil nehmen. Merath erlaubt in der Situation auch „ruppig“ und „einen Schrei“, solange das Vertrauen trägt. Scott würde zustimmen, warnt aber, dass ohne echte Fürsorge daraus „obnoxious aggression“ wird, also bloße Aggression, und genau das sei Jobs&#39; Kehrseite gewesen.</li>
+<li>＋ <strong>„Bad is stronger than good“ (Baumeister et al. 2001)</strong> ●: die Negativitätsverzerrung, mit der Merath die 5 : 1-Regel begründet.</li>
+</ul>
+<p><strong>Mehrere Identitäten</strong></p>
+<ul>
+<li>＝ <strong>Mehrere Selbstbilder (Markus &amp; Nurius: Possible Selves; Hermans: dialogisches Selbst)</strong> ◐ und ＝ <strong>Inneres Team (Schulz von Thun)</strong> ●: Den „ungeduldigen Jan“ und den „verspielten Jan“ gibt es dort als „innere Teammitglieder“.</li>
+<li>⚡ <strong>Schwartz: Theorie der Grundwerte</strong> ●: Wertprioritäten sind über Jahre recht stabil. Merath vermischt, welche Werte situativ gerade aktiv sind, mit dem, was jemand grundsätzlich wichtig findet. Seine Kritik an <em>aufgehängten</em> Wertelisten trifft trotzdem zu, sie entspricht dem Unterschied zwischen „deklariert“ und „gelebt“ (Argyris: espoused theory vs. theory-in-use).</li>
+</ul>
+<hr>
+<h2 id="8-verhandlung-und-konflikt-schranner-ergänzt-24-11">8 · Verhandlung und Konflikt (Schranner, ergänzt 24.11.)</h2><p><em>Bisher nur aus einem KI-Briefing, das mehrere Quellen mischt. Was davon wirklich Schranner ist wird gerade geprüft.</em></p>
+<p><strong>Lösen statt überzeugen / Win-Win nur bei gemeinsamer Wertebasis</strong></p>
+<ul>
+<li>⚡ <strong>Fisher, Ury &amp; Patton: <em>Getting to Yes</em> / Harvard-Konzept (1981)</strong> ◐: Menschen und Probleme trennen, Interessen statt Positionen, Optionen entwickeln, objektive Kriterien, beste Alternative ohne Einigung (BATNA). Schranner grenzt sich davon ab, das Briefing verzerrt es aber zu „beide gewinnen gleich“. Die ehrlichere Spannung: Harvard setzt voraus, dass beide Seiten mitspielen. Schranner fragt, was man tut, wenn die andere Seite das nicht tut.</li>
+<li>⚡ <strong>Axelrod: <em>The Evolution of Cooperation</em> (1984)</strong> ●: Im <strong>wiederholten</strong> Gefangenendilemma gewinnt auf Dauer, wer kooperativ beginnt, Verrat sofort beantwortet und schnell wieder verzeiht („Tit for Tat“). Schule ist ein wiederholtes Spiel. Daraus folgt: Schranners Härte passt zum Einzelfall, im Dauerverhältnis braucht sie einen kooperativen Grundton.</li>
+<li>＝ <strong>Glasl: neun Eskalationsstufen</strong> ●/◐: Bis Stufe 3 ist eine Lösung im Gespräch gut möglich (Win-Win), ab Stufe 4 bis 6 braucht es oft Moderation, ab Stufe 7 einen Machteingriff. Schranners Fälle (Geiselnahme, Erpressung) liegen weit oben.</li>
+</ul>
+<p><strong>Empathie als Werkzeug</strong></p>
+<ul>
+<li>⇐ <strong>Carkhuff: Empathie-Skala (1969)</strong> ●/◐: Die Stufen „subtraktiv, austauschbar, additiv“ stammen aus der Beratungsforschung. Das Briefing nennt die mittlere Stufe „basic“.</li>
+<li>＝ <strong>Rogers: aktives Zuhören</strong> ●, ＝ <strong>Chris Voss: <em>Never Split the Difference</em> (2016), „tactical empathy“</strong> ○: Voss war Verhandler beim FBI und kommt aus derselben Schule wie Schranner. Seine Werkzeuge (Gefühle benennen, offene „Wie“-Fragen wie „Wie soll ich das machen?“) liegen nahe bei Schranners „Schwierig“.</li>
+<li>＝ <strong>Rapoport-Regeln (über Dennett bekannt)</strong> ○: Bevor man widerspricht, gibt man die Position des anderen so gut wieder, dass er sagt: „Danke, besser hätte ich es nicht sagen können.“ Das ist <strong>Wischnewskis Eröffnung</strong> als Diskussionsregel.</li>
+</ul>
+<p><strong>Den König spielen die anderen</strong></p>
+<ul>
+<li>＝ <strong>Johnstone: Hoch- und Tiefstatus (<em>Impro</em>, 1979)</strong> ○: Status wird in jeder Begegnung <em>gespielt</em>, und zwar von beiden Seiten.</li>
+<li>⚡ Merath, innerer Status (Abschnitt 6): siehe Querverbindung 21.</li>
+</ul>
+<p><strong>Feuerwehr-Uniform / Gesichtswahrung</strong></p>
+<ul>
+<li>⇐ <strong>Sunzi: dem Gegner eine goldene Brücke bauen</strong> ○.</li>
+<li>＋ <strong>Goffman: Facework (1955)</strong> ●, <strong>Brown &amp; Levinson: Höflichkeitstheorie</strong> ●: Gesichtswahrung ist eine Grundregel jeder Interaktion. Wer das Gesicht bedroht, erzeugt Widerstand, unabhängig von der Sache.</li>
+</ul>
+<p><strong>Zukunft statt Vergangenheit</strong></p>
+<ul>
+<li>＝ <strong>de Shazer &amp; Berg: lösungsorientierte Kurzzeittherapie</strong> ●/◐: Nicht das Problem erforschen, sondern das Leben nach dem Problem beschreiben („Wunderfrage“).</li>
+<li>＝ <strong>No-Blame-Approach bei Mobbing (Maines &amp; Robinson)</strong> ◐: Eine Unterstützergruppe wird gebildet, ohne Schuld zuzuweisen. Wirksamkeit in Studien gemischt, in der Praxis verbreitet.</li>
+<li>⚡ <strong>Restorative Practice / Wiedergutmachung</strong> ◐: Wer verletzt wurde, braucht die Anerkennung des Geschehenen. Auflösung: Vergangenheit würdigen, aber nicht verhandeln.</li>
+</ul>
+<p><strong>Emotionen, Scham</strong></p>
+<ul>
+<li>⇐ <strong>Paul Ekman: Refraktärphase</strong> ◐: In den ersten Sekunden bis Minuten einer starken Emotion nimmt man nur wahr, was das Gefühl bestätigt.</li>
+<li>＋ <strong>Scham und Gewalt (James Gilligan; Scheff: „shame-rage spiral“)</strong> ◐: Gewalt als Versuch, gekränktes Ansehen wiederherzustellen. Das stützt die Verbindung zwischen Scham und Feuerwehr-Uniform.</li>
+</ul>
+<p><strong>Das letzte Wort nicht am Tisch</strong></p>
+<ul>
+<li>＝ <strong>Merath F/M/U</strong> (Abschnitt 1): beide trennen das Sprechen vom Entscheiden.</li>
+<li>⚡ <strong>Ethik:</strong> „Negotiators seldom lie, they use tactical expressions“ ist ein Satz, den man in der Schule nicht übernehmen sollte. Eine vorgeschobene Rücksprache ist im wiederholten Spiel eine Lüge mit Ablaufdatum.</li>
+</ul>
+<hr>
+<h2 id="querverbindungen-die-mir-auffallen">Querverbindungen, die mir auffallen</h2><ol>
+<li><p><strong>Die Geschwindigkeit der Rückmeldung ist der verborgene Hauptschalter.</strong> Sie steckt im Flow (sofortige Rückmeldung), im Training (Ericsson, Hattie), in der Gruppe (Minuten statt Monate), bei Jean-Paul (sofortiges Leckerli) und in der Mastergewohnheit (Rückmeldung an sich selbst, jeden Tag). Merath nennt das nie zusammen, aber es ist <em>ein</em> Prinzip. <strong>Die Prüffrage für jedes System lautet: Wie schnell erfährt man, ob es funktioniert?</strong></p>
+</li>
+<li><p><strong>Flow-Kanal und Zone der nächsten Entwicklung haben dieselbe Form.</strong> Merath beschreibt, ohne es zu sagen, eine pädagogische Grundfigur. Damit lässt sich ein Unternehmerbuch in die Schule übertragen: Gemeint ist eine Passung von Anforderung und Können, nicht Motivations-Wellness.</p>
+</li>
+<li><p><strong>Das Leckerli-Dilemma löst sich über das Gerüst.</strong> Belohnung von außen ist ein Gerüst, das man wieder abbaut. Informierendes Feedback ist besser als kontrollierendes.</p>
+</li>
+<li><p><strong>Lob und Wahrnehmen sind zwei Reifestufen.</strong> Merath und Hofbauer bilden zusammen eine Abfolge: zuerst Lob, dann beschreibende Würdigung.</p>
+</li>
+<li><p><strong>Ziele steigern die Leistung, aber nicht das Glück.</strong> Merath (Ziele-Paradox) und Locke &amp; Latham (Zielsetzung) widersprechen sich nur scheinbar, sie messen Verschiedenes. Daraus folgt: Ziele behalten, aber das Glück nicht an sie knüpfen.</p>
+</li>
+<li><p><strong>Die Kompetenzfalle steckt hinter der F-Aufgaben-Falle.</strong> Man flieht dorthin, wo der Flow sicher ist. Gegenmittel ist eine bewusste Exploration im Training, ein <em>selbst gewählter</em> schwerer Weg.</p>
+</li>
+<li><p><strong>WIP-Limits sind überall:</strong> vier Gewohnheiten, ein Engpass, ein Buch pro Thema, ein Flow-Hebel pro Aufgabe. Meraths unausgesprochene Grundregel lautet: <strong>wenig gleichzeitig.</strong></p>
+</li>
+<li><p><strong>Angst ist das Gegenstück zum Flow.</strong> Teil 2 sagt: Flow entsteht im Kanal knapp über dem Können. Teil 3 sagt: Das einzige Hindernis ist Angst. Beides beschreibt dieselbe Kurve. Angst schiebt Menschen in die Panikzone, also aus dem Kanal heraus, und dort fällt das klare Denken aus. Daraus folgt, dass <strong>„angstfreie Organisation“ und „Teamflow“ zwei Namen für dasselbe Ziel sind</strong>. Edmondsons psychologische Sicherheit ist die organisationale Fassung des Flow-Kanals.</p>
+</li>
+<li><p><strong>Status schafft Sicherheit, und Sicherheit schafft Lernen.</strong> Eine Kette mit drei Gliedern, die quer durchs Buch läuft: Wer schützt, hat Status (de Waal, Kounin). Wo geschützt wird, sinkt die Angst (Edmondson). Wo die Angst sinkt, entsteht Flow und Lernen (Csikszentmihalyi). <strong>Eingreifen ist keine Härte, sondern die Voraussetzung für eine angstfreie Klasse.</strong></p>
+</li>
+<li><p><strong>Der Abschied hilft gegen Denkfehler.</strong> Thomas&#39; tägliche Übung zielt auf die Sunk-Cost-Falle und den Besitztumseffekt, also auf zwei der stabilsten Denkfehler überhaupt. So verbinden sich Stoa, Samurai und Verhaltensökonomie. Die Übung wirkt also nicht deshalb, weil sie spirituell ist, sondern weil sie gegen eine Verzerrung angeht.</p>
+</li>
+<li><p><strong>Merath verbindet am Ende alles mit Gewohnheiten.</strong> Strategie wird zur 20-Minuten-Gewohnheit, Lebensfreude zu acht Übungen, Kultur zu organisationalen Gewohnheiten mit eigener Mastergewohnheit. Das bestätigt Idee 7 („Training statt Lernen“) als tragende Säule des Buchs. Es hat aber auch eine Kehrseite: Jans Liste wächst und wächst. Wolfgang und Thomas bremsen ihn mehrmals, und Jan nimmt eine Gewohnheit „heimlich trotzdem“ dazu. Das WIP-Limit (Nr. 7) ist im Buch selbst die Regel, die am häufigsten gebrochen wird.</p>
+</li>
+<li><p><strong>Die Geschichte überführt ihre eigene Hauptfigur.</strong> Julia bleibt im November ohne Hoffnung, Jan arbeitet wieder 70 Stunden, und die gefälschten Bewertungen bleiben unkommentiert. Merath lässt sichtbar werden, dass Jans Training an der Familie und an der Ethik bisher vorbeigeht. Ob das Absicht ist und im noch fehlenden Teil 4 aufgelöst wird, ist offen. <strong>Wo misst sich Erfolg bei mir nur an der Arbeit?</strong></p>
+</li>
+<li><p><strong>Beteiligung ist eine Frage der Reihenfolge, kein Entweder-oder.</strong> Merath (die Strategie zunächst allein entwickeln) und die Schulentwicklung (Beteiligung) widersprechen sich, solange man nicht nach Schritten trennt. Die Richtung legt die Person fest, die die Verantwortung trägt. Den Weg gestalten die Betroffenen mit, nach dem Muster von Katharina: verstehen, würdigen, Aufgabe geben.</p>
+</li>
+<li><p><strong>Die Lobrunde und Hofbauer stehen nicht gegeneinander, sondern auf einer Stufenleiter.</strong> Teil 4 löst die Spannung aus Nr. 4: Merath kommt über Gallwey selbst zum Wahrnehmen ohne Bewertung als reiferer Lernform. Die Leiter lautet also: Kritik → Lob (5 : 1) → Aufmerksamkeit ohne Bewertung.</p>
+</li>
+<li><p><strong>Merath ist im Kern eine Lerntheorie, und die Schule ist sein Gegenbild.</strong> Wolfgang macht „13 Jahre Schule“ für den Korrekturmodus verantwortlich. Gleichzeitig steckt seine Lösung voller Begriffe aus der Pädagogik: Zone der nächsten Entwicklung (Flow-Kanal), Lernziele, Vertrauensvorschuss, Identität, Gerüst. Wo ist der eigene Unterricht noch „Self 1“, also Korrektur, statt Aufmerksamkeit?</p>
+</li>
+<li><p><strong>Jans Rückfall bestätigt das Buch selbst.</strong> Die drei Kernthesen aus Idee 7 werden im Rückfall vorgeführt: Wissen ist nicht Können, die Halbwertszeit der Motivation, und das Umfeld prägt (Sven). Wolfgangs Reaktion folgt der Selbstbestimmungstheorie: Er bietet Autonomie an („ich helfe dir auf deinem Weg“), statt Druck zu machen, und er weiß, dass ein erzwungener Durchbruch nicht hält. Das ist auch eine Haltung für den Umgang mit Kindern, Eltern oder Kollegen, die „zurückfallen“.</p>
+</li>
+<li><p><strong>Eine Liste von Gegengiften gegen den zweiten Job.</strong> Kegans zweiter Job, Edmondsons Angst, Goffmans Maske, das „zweite Ich“ von Gallwey („Self 1“) und Meraths Skripte, die Misstrauen signalisieren, beschreiben dasselbe Phänomen auf Ebene der Organisation, des Teams, der Rolle und der Person. Die Gegengifte heißen in allen Quellen ähnlich: Schwäche zeigen (Jan erzählt von seinen Misserfolgen, Sabrina zeigt Schwäche), Fehler einkalkulieren, Kontrolle nur dort, wo alle sie für sinnvoll halten.</p>
+</li>
+<li><p><strong>Merath übertreibt dort, wo er Einzelfälle zur Regel macht.</strong> Das zieht sich durch alle fünf Teile: Jobs, Disney, Skunk Works, Starbucks, Fidschi. Merath belegt mit beeindruckenden Einzelfällen, ohne die vielen gescheiterten mitzuzählen. Ein Gegenmittel beim Weiterdenken: Zu jeder Geschichte die Frage stellen, wie oft das Gegenteil passiert ist und warum man davon nichts hört.</p>
+</li>
+<li><p><strong>Romane als Lehrform.</strong> Goldratt (<em>The Goal</em>), Merath und Lencioni (<em>Die fünf Dysfunktionen eines Teams</em>) schreiben Managementlehre als Erzählung. Das passt zu Game Fiction als Wirkfaktor in der Gamification-Forschung: Geschichten tragen Veränderung besser als Listen.</p>
+</li>
+<li><p><strong>Status wird innen gehalten und außen gespielt.</strong> Merath (innerer Status) und das Theater (Den König spielen die anderen) beschreiben zwei Hälften derselben Sache. Johnstone verbindet sie: Wer innen sicher ist, <em>spielt</em> anders, und die anderen antworten darauf mit Verbeugung oder Test. Für die Schulleitung heißt das: Den inneren Status kann man trainieren (Merath), die Verbeugung der anderen nicht verlangen.</p>
+</li>
+<li><p><strong>Merath und Schranner sind zwei Werkzeuge für zwei Lagen, nicht zwei Weltanschauungen.</strong> Merath baut die Gemeinschaft, in der Konflikte selten eskalieren (Sicherheit, Kunden lieben, Teamflow). Schranner ist das Handwerk für den Moment, in dem es trotzdem kracht. Die Weiche stellt die Frage: Gibt es eine gemeinsame Wertebasis, und ist sie herstellbar? Die harte Taktik bleibt für die seltenen Fälle, in denen die Basis fehlt.</p>
+</li>
+<li><p><strong>Meraths Katharina ist eine Schranner-Verhandlung.</strong> Verstehen, würdigen, Aufgabe geben (Merath, Idee 20) entspricht fast genau: additive Empathie, Wischnewski-Eröffnung, goldene Brücke in Form einer neuen Rolle. Merath erzählt, wie es ausgeht, Schranner liefert die Sätze dafür. Führung und Verhandlung überschneiden sich stark.</p>
+</li>
+<li><p><strong>Gesichtswahrung ist der gemeinsame Nenner von Scham, Widerstand und Eskalation.</strong> Feuerwehr-Uniform (Schranner), Scham als Gewalttreiber (Gilligan), Facework (Goffman), Meraths „zweiter Job“ (die Maske absichern) und der Alphatest im Klassenzimmer hängen zusammen: Menschen kämpfen meist nicht um die Sache, sondern darum, nicht schlecht dazustehen. <strong>Prüffrage für jedes schwierige Gespräch: Wie kann mein Gegenüber hier rausgehen und gut dastehen?</strong></p>
+</li>
+</ol>
+<hr>
+</main>
+<footer class="fuss"><div class="breit">Zusammenfassungen und Verknüpfungen in eigenen Worten. Die Originalwerke bleiben die Quelle – wer die Ideen ernst nimmt, liest die Bücher. Arbeitsstand, keine wissenschaftliche Arbeit.</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'strict', theme: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'neutral', flowchart: { useMaxWidth: true } });
+document.querySelectorAll('.karte').forEach(k => k.addEventListener('click', () => k.classList.toggle('gross')));</script>
+</body>
+</html>
